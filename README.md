@@ -10,8 +10,8 @@ Current Role: Lead DevOps Engineer at Persistent Systems Ltd., leading strategic
 Domain Strength: Over a decade of BFSI sector experience, delivering cloud-native and secure DevOps practices for mission-critical applications.
 
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance.
-<h2> 💻 Technical Skills </h2> <br> TEST
-<h3> Dev Ops Tools (10 Years)</h3> <br>
+<h2> 💻 Technical Skills </h2> <br> 
+<h1> Dev Ops Tools (10 Years)</h1> <br>
 <h3> AWS Cloud (5 Years) </h3> <br>
 <h3>Terraform (5 Years) </h3> <br>
 <h3>Kubernetes (5 Years) </h3><br>
