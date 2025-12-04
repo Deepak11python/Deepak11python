@@ -1,4 +1,4 @@
-![Banner](https://i.imgur.com/dW0a0Sj.png)  <!-- Replace with your banner -->
+![Banner](https://github.com/Deepak11python/Accolades/blob/main/ChatGPT%20Image%20Dec%204%2C%202025%2C%2005_23_42%20PM.png)  <!-- Replace with your banner -->
 
 ## Hi there 👋
 
