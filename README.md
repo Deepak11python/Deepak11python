@@ -1,5 +1,5 @@
 ## Hi there 👋
- <h2> 🚀 Professional Summary </h2><br>
+ <h2> 🚀 Professional Summary </h2>
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains. <br>
 Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization. <br>
 <b>Leadership Experience:</b> 5+ years as Offshore Team Lead/Technical Lead, mentoring cross-functional teams and steering operational excellence. <br>
