@@ -1,6 +1,6 @@
 ![Banner](https://github.com/Deepak11python/Accolades/blob/main/ChatGPT%20Image%20Dec%204%2C%202025%2C%2005_23_42%20PM.png)  <!-- Replace with your banner -->
 ## Hi there 👋
-🚀 Professional Summary
+🚀 <h2> Professional Summary </h2><br>
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains.
 Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization.
 
