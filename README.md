@@ -1,15 +1,8 @@
 ## Hi there 👋
- <h2> 🚀 Professional Summary </h2>
-Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains. <br>
-Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization. <br>
-<b>Leadership Experience:</b> 5+ years as Offshore Team Lead/Technical Lead, mentoring cross-functional teams and steering operational excellence. <br>
-<b>Current Role:</b> Lead DevOps Engineer at Persistent Systems Ltd., leading strategic DevOps initiatives for Medallia Inc., with focus on AWS infrastructure, automation, and optimization. <br>
-<b> Domain Strength:</b> Over a decade of BFSI sector experience, delivering cloud-native and secure DevOps practices for mission-critical applications. <br>
-Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance. <br>
 <h2> 💻 Technical Skills </h2> <br> 
 <h3> Dev Ops Tools (10 Years)</h3> <br>
 <h3> AWS Cloud (5 Years) </h3> <br>
-Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: <br>
+<b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
 <b>•	Compute & Scaling: </b> <br>
 	Amazon EC2 – for flexible virtual server provisioning <br>
 	AWS Lambda – for serverless compute and event-driven execution <br>
