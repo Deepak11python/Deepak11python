@@ -1,6 +1,6 @@
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
-<h3> AWS Cloud (5 Years) </h3> <br>
+<h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
 <b>•	Compute & Scaling: </b> <br>
 	Amazon EC2 – for flexible virtual server provisioning <br>
