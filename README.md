@@ -1,6 +1,6 @@
-![Banner](https://github.com/Deepak11python/Accolades/blob/main/ChatGPT%20Image%20Dec%204%2C%202025%2C%2005_23_42%20PM.png)  <!-- Replace with your banner -->
+#![Banner](https://github.com/Deepak11python/Accolades/blob/main/ChatGPT%20Image%20Dec%204%2C%202025%2C%2005_23_42%20PM.png)  <!-- Replace with your banner -->
 ## Hi there 👋
-🚀 <h2> Professional Summary </h2><br>
+ <h2> 🚀 Professional Summary </h2><br>
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains.
 Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization.
 
@@ -11,17 +11,17 @@ Current Role: Lead DevOps Engineer at Persistent Systems Ltd., leading strategic
 Domain Strength: Over a decade of BFSI sector experience, delivering cloud-native and secure DevOps practices for mission-critical applications.
 
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance.
-💻 Technical Skills
-🛠 Dev Ops Tools (10 Years)
-AWS Cloud (5 Years) 
-Terraform (5 Years) 
-Kubernetes (5 Years) 
-Docker (5 Years) 
-🚀 Jenkins CI-CD, GIT (8 Years) 
-Ansible (5 Years)
-🐍 Python (8 Years) 
-Helm, Helm Charts GitOps, Argo CD, GitLab CI 
-Linux, Shell Scripting (16 Years)
+<h2> 💻 Technical Skills </h2> <br>
+🛠 Dev Ops Tools (10 Years) <br>
+AWS Cloud (5 Years) <br>
+Terraform (5 Years) <br>
+Kubernetes (5 Years) <br>
+Docker (5 Years) <br>
+🚀 Jenkins CI-CD, GIT (8 Years) <br> 
+Ansible (5 Years) <br>
+🐍 Python (8 Years) <br>
+Helm, Helm Charts GitOps, Argo CD, GitLab CI <br> 
+Linux, Shell Scripting (16 Years) <br>
 
 - ⚡ Fun fact: ...
 -->
