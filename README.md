@@ -2,21 +2,21 @@
  <h2> 🚀 Professional Summary </h2><br>
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains. <br>
 Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization. <br>
-Leadership Experience: 5+ years as Offshore Team Lead/Technical Lead, mentoring cross-functional teams and steering operational excellence. <br>
-Current Role: Lead DevOps Engineer at Persistent Systems Ltd., leading strategic DevOps initiatives for Medallia Inc., with focus on AWS infrastructure, automation, and optimization. <br>
-Domain Strength: Over a decade of BFSI sector experience, delivering cloud-native and secure DevOps practices for mission-critical applications. <br>
+<b>Leadership Experience:</b> 5+ years as Offshore Team Lead/Technical Lead, mentoring cross-functional teams and steering operational excellence. <br>
+<b>Current Role:</b> Lead DevOps Engineer at Persistent Systems Ltd., leading strategic DevOps initiatives for Medallia Inc., with focus on AWS infrastructure, automation, and optimization. <br>
+<b> Domain Strength:</b> Over a decade of BFSI sector experience, delivering cloud-native and secure DevOps practices for mission-critical applications. <br>
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance. <br>
 <h2> 💻 Technical Skills </h2> <br> 
 <h3> Dev Ops Tools (10 Years)</h3> <br>
 <h3> AWS Cloud (5 Years) </h3> <br>
 Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: <br>
-•	Compute & Scaling:  <br>
+<b>•	Compute & Scaling: </b> <br>
 	Amazon EC2 – for flexible virtual server provisioning <br>
 	AWS Lambda – for serverless compute and event-driven execution <br>
 	AWS Elastic Beanstalk – for simplified application deployment and management <br>
 	Auto Scaling – for dynamic scaling based on traffic and usage <br>
 
-•	Networking & Content Delivery: <br>
+<b> •	Networking & Content Delivery: </b> <br>
 	Amazon VPC – for creating isolated cloud networks <br>
 	Subnet Management – including public and private subnets for secure resource segmentation <br>
 	Internet Gateway & NAT Gateway – for controlling internet access for resources <br>
@@ -29,18 +29,18 @@ Proficient in key AWS services used to design and implement scalable, high-avail
 	AWS VPC Peering: <br>
 	AWS Transit Gateway (TGW): <br>
 	AWS VPC Endpoint: <br>
-•	Load Balancer:<br>
+<b>•	Load Balancer:</b><br>
 	Application Load Balancer (ALB): <br>
 	Network Load Balancer (NLB): <br>
 	Gateway Load Balancer (GWLB):	<br>
-•	Security & Identity Management:<br>
+<b>•	Security & Identity Management:</b><br>
 	AWS Identity and Access Management (IAM): <br>
 	AWS Secrets Manager: <br>
 	AWS Key Management Service (KMS):<br>
 	AWS Control Tower, Organizations <br>
 
-•	Storage & Backup Solutions: <br>
-•	Database & Caching: <br>
+<b>•	Storage & Backup Solutions: </b><br>
+<b>•	Database & Caching: </b><br>
 	RDS <br>
 	DYANMO DB <br>
 	Elastic Cache <br>
