@@ -13,6 +13,54 @@ Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End
 <h2> 💻 Technical Skills </h2> <br> 
 <h1> Dev Ops Tools (10 Years)</h1> <br>
 <h3> AWS Cloud (5 Years) </h3> <br>
+Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures:
+•	Compute & Scaling:
+	Amazon EC2 – for flexible virtual server provisioning
+	AWS Lambda – for serverless compute and event-driven execution
+	AWS Elastic Beanstalk – for simplified application deployment and management
+	Auto Scaling – for dynamic scaling based on traffic and usage
+
+•	Networking & Content Delivery:
+	Amazon VPC – for creating isolated cloud networks
+	Subnet Management – including public and private subnets for secure resource segmentation
+	Internet Gateway & NAT Gateway – for controlling internet access for resources
+	Route Tables – for managing custom routing configurations
+	Amazon Route 53 – for scalable DNS and domain name management
+	Amazon CloudFront – for content delivery and caching
+	Amazon API Gateway – for building, deploying, and managing APIs at scale
+	AWS WAF: Web application protection using managed/custom rules; security against OWASP Top 10 threats.
+	AWS ACM: Automated provisioning and renewal of SSL/TLS certificates for secure AWS resource endpoints.
+
+
+
+	AWS VPC Peering: 
+	AWS Transit Gateway (TGW):
+	AWS VPC Endpoint: 
+•	Load Balancer:
+	Application Load Balancer (ALB):
+	Network Load Balancer (NLB):
+	Gateway Load Balancer (GWLB):	
+•	Security & Identity Management:
+	AWS Identity and Access Management (IAM):
+	AWS Secrets Manager:
+	AWS Key Management Service (KMS):
+	AWS Control Tower, Organizations
+
+•	Storage & Backup Solutions:
+
+•	Database & Caching:
+	RDS
+	DYANMO DB
+	Elastic Cache
+	Aurora
+•	CI/CD & DevOps Tooling: 
+
+•	Containers & Orchestration: 
+
+•	Monitoring & Logging:
+•	Experienced in identifying and managing end-of-life (EOL) AWS services, ensuring seamless migration to supported alternatives and maintaining compliance with best practices.
+•	Implemented and maintained AWS cost optimization strategies to improve cloud resource efficiency and reduce operational expenses, including:
+
 <h3>Terraform (5 Years) </h3> <br>
 <h3>Kubernetes (5 Years) </h3><br>
 <h3> Docker (5 Years) </h3><br>
