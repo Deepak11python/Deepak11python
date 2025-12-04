@@ -1,4 +1,3 @@
-#![Banner](https://github.com/Deepak11python/Accolades/blob/main/ChatGPT%20Image%20Dec%204%2C%202025%2C%2005_23_42%20PM.png)  <!-- Replace with your banner -->
 ## Hi there 👋
  <h2> 🚀 Professional Summary </h2><br>
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains.
@@ -12,16 +11,16 @@ Domain Strength: Over a decade of BFSI sector experience, delivering cloud-nativ
 
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance.
 <h2> 💻 Technical Skills </h2> <br>
-🛠 Dev Ops Tools (10 Years) <br>
-AWS Cloud (5 Years) <br>
-Terraform (5 Years) <br>
-Kubernetes (5 Years) <br>
-Docker (5 Years) <br>
-🚀 Jenkins CI-CD, GIT (8 Years) <br> 
-Ansible (5 Years) <br>
-🐍 Python (8 Years) <br>
-Helm, Helm Charts GitOps, Argo CD, GitLab CI <br> 
-Linux, Shell Scripting (16 Years) <br>
+<h1>Dev Ops Tools (10 Years)</h1> <br>
+<h1> AWS Cloud (5 Years) </h1> <br>
+<h1>Terraform (5 Years) </h1> <br>
+<h1>Kubernetes (5 Years) </h1><br>
+<h1> Docker (5 Years) </h1><br>
+<h1> Jenkins CI-CD, GIT (8 Years) </h1><br> 
+<h1> Ansible (5 Years) </h1><br>
+<h1> Python (8 Years) </h1><br>
+<h1> Helm, Helm Charts GitOps, Argo CD, GitLab CI </h1><br> 
+<h1> Linux, Shell Scripting (16 Years) </h1><br>
 
 - ⚡ Fun fact: ...
 -->
