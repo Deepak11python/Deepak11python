@@ -12,15 +12,12 @@ Domain Strength: Over a decade of BFSI sector experience, delivering cloud-nativ
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance.
 <h2> 💻 Technical Skills </h2> <br>
 <h3>Dev Ops Tools (10 Years)</h3> <br>
-<h1> AWS Cloud (5 Years) </h1> <br>
-<h1>Terraform (5 Years) </h1> <br>
-<h1>Kubernetes (5 Years) </h1><br>
-<h1> Docker (5 Years) </h1><br>
-<h1> Jenkins CI-CD, GIT (8 Years) </h1><br> 
-<h1> Ansible (5 Years) </h1><br>
-<h1> Python (8 Years) </h1><br>
-<h1> Helm, Helm Charts GitOps, Argo CD, GitLab CI </h1><br> 
-<h1> Linux, Shell Scripting (16 Years) </h1><br>
-
-- ⚡ Fun fact: ...
--->
+<h3> AWS Cloud (5 Years) </h3> <br>
+<h3>Terraform (5 Years) </h3> <br>
+<h3>Kubernetes (5 Years) </h3><br>
+<h3> Docker (5 Years) </h3><br>
+<h3> Jenkins CI-CD, GIT (8 Years) </h3><br> 
+<h3> Ansible (5 Years) </h3><br>
+<h3> Python (8 Years) </h3><br>
+<h3> Helm, Helm Charts GitOps, Argo CD, GitLab CI </h3><br> 
+<h3> Linux, Shell Scripting (16 Years) </h3><br>
