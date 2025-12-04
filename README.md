@@ -4,8 +4,6 @@
 
 <!--
 **Deepak11python/Deepak11python** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
 🚀 Professional Summary
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI, Telecom Storage, and Virtualization domains.
 Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization.
@@ -18,7 +16,16 @@ Domain Strength: Over a decade of BFSI sector experience, delivering cloud-nativ
 
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance.
 💻 Technical Skills
-🛠 Dev Ops Tools (10 Years) AWS Cloud (5 Years) Terraform (5 Years) Kubernetes (5 Years) Docker (5 Years) 🚀 Jenkins CI-CD, GIT (8 Years) Ansible (5 Years) 🐍 Python (8 Years) Helm, Helm Charts GitOps, Argo CD, GitLab CI Linux, Shell Scripting (16 Years)
+🛠 Dev Ops Tools (10 Years)
+AWS Cloud (5 Years) 
+Terraform (5 Years) 
+Kubernetes (5 Years) 
+Docker (5 Years) 
+🚀 Jenkins CI-CD, GIT (8 Years) 
+Ansible (5 Years)
+🐍 Python (8 Years) 
+Helm, Helm Charts GitOps, Argo CD, GitLab CI 
+Linux, Shell Scripting (16 Years)
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
