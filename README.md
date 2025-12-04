@@ -1,4 +1,3 @@
-## Hi there 👋
 <h2> 💻 Technical Skills </h2> <br> 
 <h3> Dev Ops Tools (10 Years)</h3> <br>
 <h3> AWS Cloud (5 Years) </h3> <br>
