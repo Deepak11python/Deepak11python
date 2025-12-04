@@ -11,7 +11,7 @@ Domain Strength: Over a decade of BFSI sector experience, delivering cloud-nativ
 
 Strong expertise in cloud cost optimization, vulnerability remediation, EOL (End-of-Life) service migration, and IT audit compliance.
 <h2> 💻 Technical Skills </h2> <br>
-<h1>Dev Ops Tools (10 Years)</h1> <br>
+<h3>Dev Ops Tools (10 Years)</h3> <br>
 <h1> AWS Cloud (5 Years) </h1> <br>
 <h1>Terraform (5 Years) </h1> <br>
 <h1>Kubernetes (5 Years) </h1><br>
