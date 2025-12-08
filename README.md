@@ -22,25 +22,25 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS Transit Gateway (TGW): <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS VPC Endpoint: <br>
 <b>•	Load Balancer:</b><br>
-&nbsp; x5	Application Load Balancer (ALB): <br>
-&nbsp; x5	Network Load Balancer (NLB): <br>
-&nbsp&nbsp; x5; x5	Gateway Load Balancer (GWLB):	<br>
+&nbsp; x5;	Application Load Balancer (ALB): <br>
+&nbsp; x5;	Network Load Balancer (NLB): <br>
+&nbsp&nbsp; x5	Gateway Load Balancer (GWLB):	<br>
 <b>•	Security & Identity Management:</b><br>
-&nbsp; x5	AWS Identity and Access Management (IAM): <br>
-&nbsp; x5	AWS Secrets Manager: <br>
-&nbsp; x5	AWS Key Management Service (KMS):<br>
-&nbsp; x5	AWS Control Tower, Organizations <br>
+&nbsp; x5;	AWS Identity and Access Management (IAM): <br>
+&nbsp; x5;	AWS Secrets Manager: <br>
+&nbsp; x5;	AWS Key Management Service (KMS):<br>
+&nbsp; x5;	AWS Control Tower, Organizations <br>
 
 <b>•	Storage & Backup Solutions: </b><br>
 <b>•	Database & Caching: </b><br>
-&nbsp; x5	RDS <br>
-&nbsp; x5	DYANMO DB <br>
-&nbsp; x5	Elastic Cache <br>
-&nbsp; x5	Aurora <br>
-•	CI/CD & DevOps Tooling:  <br>
-•	Containers & Orchestration:  <br>
-•	Monitoring & Logging: <br>
-•	Experienced in identifying and managing end-of-life (EOL) AWS services, ensuring seamless migration to supported alternatives and maintaining compliance with best practices. <br>
+&nbsp; x5;	RDS <br>
+&nbsp; x5;	DYANMO DB <br>
+&nbsp; x5;	Elastic Cache <br>
+&nbsp; x5;	Aurora <br>
+<b>•	CI/CD & DevOps Tooling:</b>  <br>
+<b>•	Containers & Orchestration:</b>  <br>
+<b>•	Monitoring & Logging:</b> <br>
+<br>•	Experienced in identifying and managing end-of-life (EOL) AWS services, ensuring seamless migration to supported alternatives and maintaining compliance with best practices. <br>
 •	Implemented and maintained AWS cost optimization strategies to improve cloud resource efficiency and reduce operational expenses, including: <br>
 
 <h3>Terraform (5 Years) </h3> <br>
