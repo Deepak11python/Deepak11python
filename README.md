@@ -9,18 +9,18 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Auto Scaling – </b>for dynamic scaling based on traffic and usage <br>
 <br>
 <b> •	Networking & Content Delivery: </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Amazon VPC – for creating isolated cloud networks <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Subnet Management – including public and private subnets for secure resource segmentation <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Internet Gateway & NAT Gateway – for controlling internet access for resources <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Route Tables – for managing custom routing configurations <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Amazon Route 53 – for scalable DNS and domain name management <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Amazon CloudFront – for content delivery and caching <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Amazon API Gateway – for building, deploying, and managing APIs at scale <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS WAF: Web application protection using managed/custom rules; security against OWASP Top 10 threats. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS ACM: Automated provisioning and renewal of SSL/TLS certificates for secure AWS resource endpoints. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS VPC Peering: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS Transit Gateway (TGW): <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS VPC Endpoint: <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon VPC – </b>for creating isolated cloud networks <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Subnet Management –</b> including public and private subnets for secure resource segmentation <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Internet Gateway & NAT Gateway – </b>for controlling internet access for resources <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Route Tables – </b>for managing custom routing configurations <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon Route 53 – </b>for scalable DNS and domain name management <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon CloudFront – </b>for content delivery and caching <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon API Gateway – </b>for building, deploying, and managing APIs at scale <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS WAF: </b>Web application protection using managed/custom rules; security against OWASP Top 10 threats. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS ACM: </b>Automated provisioning and renewal of SSL/TLS certificates for secure AWS resource endpoints. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS VPC Peering:</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS Transit Gateway (TGW):</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS VPC Endpoint:</b> <br>
 <br>
 <b>•	Load Balancer:</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Application Load Balancer (ALB): <br>
