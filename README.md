@@ -3,10 +3,10 @@
 <h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
 <b>•	Compute & Scaling: </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Amazon EC2 – for flexible virtual server provisioning <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS Lambda – for serverless compute and event-driven execution <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS Elastic Beanstalk – for simplified application deployment and management <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Auto Scaling – for dynamic scaling based on traffic and usage <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon EC2 – </b>for flexible virtual server provisioning <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS Lambda – </b>for serverless compute and event-driven execution <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	AWS Elastic Beanstalk – </b>for simplified application deployment and management <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Auto Scaling – </b>for dynamic scaling based on traffic and usage <br>
 <br>
 <b> •	Networking & Content Delivery: </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Amazon VPC – for creating isolated cloud networks <br>
