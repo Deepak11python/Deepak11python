@@ -22,7 +22,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS Transit Gateway (TGW): <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS VPC Endpoint: <br>
 <b>•	Load Balancer:</b><br>
-&nbsp; x5;	Application Load Balancer (ALB): <br>
+&nbsp; x5 	Application Load Balancer (ALB): <br>
 &nbsp; x5;	Network Load Balancer (NLB): <br>
 &nbsp&nbsp; x5	Gateway Load Balancer (GWLB):	<br>
 <b>•	Security & Identity Management:</b><br>
