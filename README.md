@@ -23,8 +23,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	AWS VPC Endpoint: <br>
 <b>•	Load Balancer:</b><br>
 &nbsp; x5 	Application Load Balancer (ALB): <br>
-&nbsp; x5;	Network Load Balancer (NLB): <br>
-&nbsp&nbsp; x5	Gateway Load Balancer (GWLB):	<br>
+&nbsp; x5 	Network Load Balancer (NLB): <br>
+&nbsp; x5 	Gateway Load Balancer (GWLB):	<br>
 <b>•	Security & Identity Management:</b><br>
 &nbsp; x5;	AWS Identity and Access Management (IAM): <br>
 &nbsp; x5;	AWS Secrets Manager: <br>
