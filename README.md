@@ -3,40 +3,40 @@
 <h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
 <b>•	Compute & Scaling: </b> <br>
-	Amazon EC2 – for flexible virtual server provisioning <br>
-	AWS Lambda – for serverless compute and event-driven execution <br>
-	AWS Elastic Beanstalk – for simplified application deployment and management <br>
-	Auto Scaling – for dynamic scaling based on traffic and usage <br>
+&nbsp;	Amazon EC2 – for flexible virtual server provisioning <br>
+&nbsp;	AWS Lambda – for serverless compute and event-driven execution <br>
+&nbsp;	AWS Elastic Beanstalk – for simplified application deployment and management <br>
+&nbsp;	Auto Scaling – for dynamic scaling based on traffic and usage <br>
 
 <b> •	Networking & Content Delivery: </b> <br>
-	Amazon VPC – for creating isolated cloud networks <br>
-	Subnet Management – including public and private subnets for secure resource segmentation <br>
-	Internet Gateway & NAT Gateway – for controlling internet access for resources <br>
-	Route Tables – for managing custom routing configurations <br>
-	Amazon Route 53 – for scalable DNS and domain name management <br>
-	Amazon CloudFront – for content delivery and caching <br>
-	Amazon API Gateway – for building, deploying, and managing APIs at scale <br>
-	AWS WAF: Web application protection using managed/custom rules; security against OWASP Top 10 threats. <br>
-	AWS ACM: Automated provisioning and renewal of SSL/TLS certificates for secure AWS resource endpoints. <br>
-	AWS VPC Peering: <br>
-	AWS Transit Gateway (TGW): <br>
-	AWS VPC Endpoint: <br>
+&nbsp;	Amazon VPC – for creating isolated cloud networks <br>
+&nbsp;	Subnet Management – including public and private subnets for secure resource segmentation <br>
+&nbsp;	Internet Gateway & NAT Gateway – for controlling internet access for resources <br>
+&nbsp;	Route Tables – for managing custom routing configurations <br>
+&nbsp;	Amazon Route 53 – for scalable DNS and domain name management <br>
+&nbsp;	Amazon CloudFront – for content delivery and caching <br>
+&nbsp;	Amazon API Gateway – for building, deploying, and managing APIs at scale <br>
+&nbsp;	AWS WAF: Web application protection using managed/custom rules; security against OWASP Top 10 threats. <br>
+&nbsp;	AWS ACM: Automated provisioning and renewal of SSL/TLS certificates for secure AWS resource endpoints. <br>
+&nbsp;	AWS VPC Peering: <br>
+&nbsp;	AWS Transit Gateway (TGW): <br>
+&nbsp;	AWS VPC Endpoint: <br>
 <b>•	Load Balancer:</b><br>
-	Application Load Balancer (ALB): <br>
-	Network Load Balancer (NLB): <br>
-	Gateway Load Balancer (GWLB):	<br>
+&nbsp;	Application Load Balancer (ALB): <br>
+&nbsp;	Network Load Balancer (NLB): <br>
+&nbsp;	Gateway Load Balancer (GWLB):	<br>
 <b>•	Security & Identity Management:</b><br>
-	AWS Identity and Access Management (IAM): <br>
-	AWS Secrets Manager: <br>
-	AWS Key Management Service (KMS):<br>
-	AWS Control Tower, Organizations <br>
+&nbsp;	AWS Identity and Access Management (IAM): <br>
+&nbsp;	AWS Secrets Manager: <br>
+&nbsp;	AWS Key Management Service (KMS):<br>
+&nbsp;	AWS Control Tower, Organizations <br>
 
 <b>•	Storage & Backup Solutions: </b><br>
 <b>•	Database & Caching: </b><br>
-	RDS <br>
-	DYANMO DB <br>
-	Elastic Cache <br>
-	Aurora <br>
+&nbsp;	RDS <br>
+&nbsp;	DYANMO DB <br>
+&nbsp;	Elastic Cache <br>
+&nbsp;	Aurora <br>
 •	CI/CD & DevOps Tooling:  <br>
 •	Containers & Orchestration:  <br>
 •	Monitoring & Logging: <br>
