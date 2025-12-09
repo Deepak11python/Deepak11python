@@ -1,3 +1,8 @@
+
+Languages and Tools:
+
+React  python  AWS  Material UI  Redux   CSS  HTML  JavaScript  Firebase  Gatsby  MySQL  NodeJS  Postman  Git  docker  kubernetes 
+
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <h3> AWS Cloud (5 Years) </h3> 
