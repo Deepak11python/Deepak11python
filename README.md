@@ -3,25 +3,25 @@
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <h3>Terraform (5 Years) </h3> <br>
-Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using <br>
+Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using
 Terraform and its native Configuration Language (HCL)  <br>
 Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Providers <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Resources </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Data Sources </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Variables (Input Variables) </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Outputs </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Modules </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Backend Configuration, State File, Local Backend, and Remote Backend <br> </b>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Terraform Workflow (Init, Plan, Apply, Destroy) </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Meta-Arguments (e.g., count, for_each, depends_on, lifecycle) </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> State Locking </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Provisioners </b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Workspaces </b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> State Manipulation (terraform import, terraform state mv) </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Dependencies </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Drift Detection </b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Taint/ Untaint</b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resources  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data Sources  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variables (Input Variables)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outputs  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Modules  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Backend Configuration, State File, Local Backend, and Remote Backend <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terraform Workflow (Init, Plan, Apply, Destroy)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meta-Arguments (e.g., count, for_each, depends_on, lifecycle)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State Locking <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Provisioners <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Workspaces <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State Manipulation (terraform import, terraform state mv)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dependencies  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drift Detection <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Taint/ Untaint <br>
 
 <h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
