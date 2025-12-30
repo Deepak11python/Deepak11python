@@ -19,22 +19,22 @@
 Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using
 Terraform and its native Configuration Language (HCL)  <br>
 Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Providers <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resources  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data Sources  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Variables (Input Variables)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outputs  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Modules  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Backend Configuration, State File, Local Backend, and Remote Backend <br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terraform Workflow (Init, Plan, Apply, Destroy)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Meta-Arguments (e.g., count, for_each, depends_on, lifecycle)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State Locking <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Provisioners <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Workspaces <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; State Manipulation (terraform import, terraform state mv)  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dependencies  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drift Detection <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Taint/ Untaint <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Providers <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Resources  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Data Sources  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Variables (Input Variables)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Outputs  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Modules  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Backend Configuration, State File, Local Backend, and Remote Backend <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Terraform Workflow (Init, Plan, Apply, Destroy)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Meta-Arguments (e.g., count, for_each, depends_on, lifecycle)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;State Locking <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Provisioners <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Workspaces <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;State Manipulation (terraform import, terraform state mv)  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Dependencies  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Drift Detection <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733;Taint/ Untaint <br>
 
 <h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
