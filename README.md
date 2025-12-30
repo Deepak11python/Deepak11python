@@ -2,6 +2,27 @@
 
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
+<h3>Terraform (5 Years) </h3> <br>
+Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using <br>
+Terraform and its native Configuration Language (HCL)  <br>
+Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Providers </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Resources </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Data Sources </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Variables (Input Variables) </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Outputs </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Modules </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Backend Configuration, State File, Local Backend, and Remote Backend <br> </b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Terraform Workflow (Init, Plan, Apply, Destroy) </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Meta-Arguments (e.g., count, for_each, depends_on, lifecycle) </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> State Locking </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Provisioners </b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Workspaces </b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> State Manipulation (terraform import, terraform state mv) </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Dependencies </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Drift Detection </b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Taint/ Untaint</b> <br>
+
 <h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
 <b>•	Compute & Scaling: </b> <br>
@@ -51,25 +72,6 @@
 <br><br>•	Experienced in identifying and managing end-of-life (EOL) AWS services, ensuring seamless migration to supported alternatives and maintaining compliance with best practices. <br>
 •	Implemented and maintained AWS cost optimization strategies to improve cloud resource efficiency and reduce operational expenses, including: <br>
 
-<h3>Terraform (5 Years) </h3> <br>
-Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using Terraform and its native Configuration Language (HCL).
-Have in-depth knowledge and practical hands-on on given below topics:
- Providers
-Resources
-Data Sources
- Variables (Input Variables)
-Outputs
- Modules
- Backend Configuration, State File, Local Backend, and Remote Backend
- Terraform Workflow (Init, Plan, Apply, Destroy)
- Meta-Arguments (e.g., count, for_each, depends_on, lifecycle)
- State Locking
-Provisioners
-Workspaces
- State Manipulation (terraform import, terraform state mv)
- Dependencies
-Drift Detection
-Taint/ Untaint
 
 <h3>Kubernetes (5 Years) </h3><br>
 <h3> Docker (5 Years) </h3><br>
