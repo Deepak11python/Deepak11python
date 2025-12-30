@@ -1,3 +1,8 @@
+.card img {
+  width: 36px;   /* reduced from 48px */
+  height: 36px;  /* reduced from 48px */
+  margin-bottom: 8px;
+}
   <h2>💻 Tech Arsenal & Expertise</h2>
 
   <!-- Cloud & DevOps -->
