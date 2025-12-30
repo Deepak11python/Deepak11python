@@ -8,8 +8,8 @@
   <!-- Cloud & DevOps -->
   <h3>☁️ Cloud & DevOps Mastery</h3>
   <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"><span>AWS</span> width="36" height="36"</div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"><span>Terraform</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"><span>AWS</span> </div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"style="width:36px; height:36px;" ><span>Terraform</span></div>
     <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"><span>Docker</span></div>
     <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"><span>Kubernetes</span></div>
     <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"><span>Jenkins</span></div>
