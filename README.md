@@ -2,17 +2,13 @@
 🎯 I Transform Cloud Infrastructure Into Business Value
 
 💰 Cost Optimizer
-60% average reduction
-through serverless	
+60% average reduction through serverless	
 🔒 Security First
-Zero-breach record
-with IAM & KMS	
+Zero-breach record with IAM & KMS	
 🚀 Performance
-5M orders/mo
-<200ms response	
+Optimized performance	
 🤖 AI-Powered
-Agentic workflows
-for auto-triage
+Agentic workflows for auto-triage
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <h3>Terraform (5 Years) </h3> 
