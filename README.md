@@ -53,7 +53,10 @@
 
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
-<h3>Terraform (5 Years) </h3> 
+<div class="grid">
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"style="width:36px; height:36px;" >  <span>Terraform</span></div>
+</div>
+  <h3>Terraform (5 Years) </h3> 
 Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using
 Terraform and its native Configuration Language (HCL)  <br>
 Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
