@@ -6,13 +6,13 @@
 Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using <br>
 Terraform and its native Configuration Language (HCL)  <br>
 Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Providers </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Providers <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Resources </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Data Sources </b> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Data Sources </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Variables (Input Variables) </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Outputs </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Modules </b> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Backend Configuration, State File, Local Backend, and Remote Backend <br> </b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Backend Configuration, State File, Local Backend, and Remote Backend <br> </b>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Terraform Workflow (Init, Plan, Apply, Destroy) </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Meta-Arguments (e.g., count, for_each, depends_on, lifecycle) </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> State Locking </b> <br>
