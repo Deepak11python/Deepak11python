@@ -1,14 +1,15 @@
  What I Do Best
 🎯 I Transform Cloud Infrastructure Into Business Value
 
-💰 Cost Optimizer
-60% average reduction through serverless	
-🔒 Security First
-Zero-breach record with IAM & KMS	
-🚀 Performance
-Optimized performance	
-🤖 AI-Powered
-Agentic workflows for auto-triage
+💰 Cost Optimizer <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60% average reduction through serverless <br>	
+🔒 Security First <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zero-breach record with IAM & KMS	<br>
+🚀 Performance  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optimized performance <br>	
+🤖 AI-Powered <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agentic workflows for auto-triage <br>
+
 <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <h3>Terraform (5 Years) </h3> 
