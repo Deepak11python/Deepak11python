@@ -1,8 +1,3 @@
-.card img {
-  width: 36px;   /* reduced from 48px */
-  height: 36px;  /* reduced from 48px */
-  margin-bottom: 8px;
-}
   <h2>💻 Tech Arsenal & Expertise</h2>
 
   <!-- Cloud & DevOps -->
@@ -25,27 +20,21 @@
   <!-- Languages & Frameworks -->
   <h3>🛠 Languages & Frameworks</h3>
   <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><span>Node.js</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"><span>Go</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><span>Python</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"><span>TypeScript</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><span>React</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"><span>Vue</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"><span>Next.js</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" style="width:36px; height:36px;"><span>Go</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"style="width:36px; height:36px;"><span>Python</span></div>
   </div>
 
   <!-- Databases -->
   <h3>🗄 Databases & Storage</h3>
   <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg"><span>DynamoDB</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><span>MongoDB</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><span>MySQL</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"><span>PostgreSQL</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg"><span>Elasticsearch</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"><span>Redis</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"><span>GraphQL</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"><span>Nginx</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg" style="width:36px; height:36px;"><span>DynamoDB</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="width:36px; height:36px;"><span>MongoDB</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="width:36px; height:36px;"><span>MySQL</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style="width:36px; height:36px;"><span>PostgreSQL</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" style="width:36px; height:36px;" > <span>Elasticsearch</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" style="width:36px; height:36px;"><span>Redis</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" style="width:36px; height:36px;"><span>GraphQL</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" style="width:36px; height:36px;"><span>Nginx</span></div>
   </div>
 
 </div>
