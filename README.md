@@ -5,7 +5,10 @@
     background: #ffffff;
     color: #1f2937;
   }
-
+  .card {
+    width: 32px;
+    height: 32px;
+  }
   .container {
     max-width: 1100px;
     margin: 30px auto;
@@ -47,9 +50,9 @@
   }
 
   .card img {
-    width: 48px;
-    height: 48px;
-    margin-bottom: 8px;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 2px;
   }
 
   .card span {
