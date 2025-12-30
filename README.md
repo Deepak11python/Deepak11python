@@ -3,10 +3,13 @@
 
 💰 Cost Optimizer <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60% average reduction through serverless <br>	
+
 🔒 Security First <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zero-breach record with IAM & KMS	<br>
+
 🚀 Performance  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optimized performance <br>	
+
 🤖 AI-Powered <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agentic workflows for auto-triage <br>
 
