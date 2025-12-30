@@ -12,11 +12,6 @@
     <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" style="width:36px; height:36px;" ><span>GitLab</span></div>
     <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" style="width:36px; height:36px;"><span>Prometheus</span></div>
   </div>
-.card img {
-  width: 36px;   /* reduced from 48px */
-  height: 36px;  /* reduced from 48px */
-  margin-bottom: 8px;
-}
   <!-- Languages & Frameworks -->
   <h3>🛠 Languages & Frameworks</h3>
   <div class="grid">
