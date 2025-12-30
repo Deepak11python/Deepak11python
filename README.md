@@ -6,8 +6,8 @@
     color: #1f2937;
   }
   .card {
-    width: 32px;
-    height: 32px;
+    width: 2px;
+    height: 2px;
   }
   .container {
     max-width: 1100px;
@@ -32,8 +32,8 @@
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-    gap: 16px;
+    grid-template-columns: repeat(minmax(110px, 1fr));
+    gap: 1px;
   }
 
   .card {
@@ -50,8 +50,8 @@
   }
 
   .card img {
-    width: 10px;
-    height: 10px;
+    width: 2px;
+    height: 2px;
     margin-bottom: 2px;
   }
 
