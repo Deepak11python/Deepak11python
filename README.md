@@ -1,3 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tech Arsenal & Expertise</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+    background: #ffffff;
+    color: #1f2937;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8px;
+  }
+
+  h3 {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 16px 10px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+  }
+
+  .card img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
+  }
+
+  .card span {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+  }
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <h2>💻 Tech Arsenal & Expertise</h2>
+
+  <!-- Cloud & DevOps -->
+  <h3>☁️ Cloud & DevOps Mastery</h3>
+  <div class="grid">
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"><span>AWS</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"><span>Terraform</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"><span>Docker</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"><span>Kubernetes</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"><span>Jenkins</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><span>GitHub</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"><span>GitLab</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"><span>Prometheus</span></div>
+  </div>
+
+  <!-- Languages & Frameworks -->
+  <h3>🛠 Languages & Frameworks</h3>
+  <div class="grid">
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"><span>Node.js</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"><span>Go</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><span>Python</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"><span>TypeScript</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><span>JavaScript</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"><span>React</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"><span>Vue</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"><span>Next.js</span></div>
+  </div>
+
+  <!-- Databases -->
+  <h3>🗄 Databases & Storage</h3>
+  <div class="grid">
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg"><span>DynamoDB</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"><span>MongoDB</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><span>MySQL</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"><span>PostgreSQL</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg"><span>Elasticsearch</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"><span>Redis</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"><span>GraphQL</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"><span>Nginx</span></div>
+  </div>
+
+</div>
+</body>
+
+ 
  What I Do Best
 🎯 I Transform Cloud Infrastructure Into Business Value
 
@@ -91,5 +205,7 @@ Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 <h3> Jenkins CI-CD, GIT (8 Years) </h3><br> 
 <h3> Ansible (5 Years) </h3><br>
 <h3> Python (8 Years) </h3><br>
+</html>
+
 <h3> Helm, Helm Charts GitOps, Argo CD, GitLab CI </h3><br> 
 <h3> Linux, Shell Scripting (16 Years) </h3><br>
