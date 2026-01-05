@@ -37,7 +37,7 @@
 
  
  What I Do Best
-🎯 I Transform Cloud Infrastructure Into Business Value
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 I Transform Cloud Infrastructure Into Business Value
 
 💰 Cost Optimizer <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60% average reduction through serverless <br>	
