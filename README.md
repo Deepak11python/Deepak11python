@@ -1,40 +1,14 @@
-  <h2>💻 Tech Arsenal & Expertise</h2>
+# 💫 About Me:
+Seasoned Lead DevOps Engineer with 16+ years of technical expertise in delivering DevOps solutions across BFSI,<br>Telecom Storage, and Virtualization domains.<br>Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker Kubernetes, Ansible, automation, CI/CD, cost optimization.
 
-  <!-- Cloud & DevOps -->
-  <h3>☁️ Cloud & DevOps Mastery</h3>
-  <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg"><span>AWS</span> </div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"style="width:36px; height:36px;" ><span>Terraform</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg style="width:36px; height:36px;""><span>Docker</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" style="width:36px; height:36px;" ><span>Kubernetes</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" style="width:36px; height:36px;"><span>Jenkins</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" style="width:36px; height:36px;" ><span>GitHub</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" style="width:36px; height:36px;" ><span>GitLab</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" style="width:36px; height:36px;"><span>Prometheus</span></div>
-  </div>
-  <!-- Languages & Frameworks -->
-  <h3>🛠 Languages & Frameworks</h3>
-  <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" style="width:36px; height:36px;"><span>Go</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"style="width:36px; height:36px;"><span>Python</span></div>
-  </div>
 
-  <!-- Databases -->
-  <h3>🗄 Databases & Storage</h3>
-  <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg" style="width:36px; height:36px;"><span>DynamoDB</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" style="width:36px; height:36px;"><span>MongoDB</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" style="width:36px; height:36px;"><span>MySQL</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style="width:36px; height:36px;"><span>PostgreSQL</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg" style="width:36px; height:36px;" > <span>Elasticsearch</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" style="width:36px; height:36px;"><span>Redis</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" style="width:36px; height:36px;"><span>GraphQL</span></div>
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" style="width:36px; height:36px;"><span>Nginx</span></div>
-  </div>
+# 💻 Tech Stack:
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)  
 
-</div>
-</body>
+---
+[![](https://visitcount.itsvg.in/api?id=deepak11&icon=0&color=0)](https://visitcount.itsvg.in)
 
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
  
  <h2> What I Do Best </h2>
 🎯 I Transform Cloud Infrastructure Into Business Value <br>
