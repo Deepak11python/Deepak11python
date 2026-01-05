@@ -36,8 +36,9 @@
 </body>
 
  
- What I Do Best
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🎯 I Transform Cloud Infrastructure Into Business Value
+ <h2> What I Do Best </h2>
+🎯 I Transform Cloud Infrastructure Into Business Value <br>
+<br>
 
 💰 Cost Optimizer <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60% average reduction through serverless <br>	
