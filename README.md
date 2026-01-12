@@ -64,10 +64,10 @@ Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 <b>•	Storage & Backup Solutions: </b><br>
 <h2>Types of Storage Classes in AWS S3 </h2> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Standard:</b> Provides high durability, availability, and performance for frequently accessed data.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b></b>Intelligent-Tiering:</b> Automatically moves objects between two access tiers based on changing access patterns.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b></b>Standard-IA (Infrequent Access):</b> For data that is accessed less frequently but requires rapid access when needed.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b></b>One Zone-IA:</b> Lower-cost option for infrequently accessed data that doesn't require multiple Availability Zone resilience.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b></b>Glacier and Glacier Deep Archive: </b> For archival data with retrieval times ranging from minutes to hours.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Intelligent-Tiering:</b> Automatically moves objects between two access tiers based on changing access patterns.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Standard-IA (Infrequent Access):</b> For data that is accessed less frequently but requires rapid access when needed.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>One Zone-IA:</b> Lower-cost option for infrequently accessed data that doesn't require multiple Availability Zone resilience.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Glacier and Glacier Deep Archive: </b> For archival data with retrieval times ranging from minutes to hours.  <br>
 <b> •	Networking & Content Delivery: </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon VPC – </b>for creating isolated cloud networks <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Subnet Management –</b> including public and private subnets for secure resource segmentation <br>
