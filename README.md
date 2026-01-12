@@ -52,7 +52,7 @@ Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733; Dependencies  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733; Drift Detection <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733; Taint/ Untaint <br>
-
+                 
 <h3> AWS Cloud (5 Years) </h3> 
 <b>Proficient in key AWS services used to design and implement scalable, high-availability cloud architectures: </b><br>
 <b>•	Compute & Scaling: </b> <br>
@@ -63,11 +63,11 @@ Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 <br>
 <b>•	Storage & Backup Solutions: </b>
 <h2>Types of Storage Classes in AWS S3 </h2> <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Standard:</b> Provides high durability, availability, and performance for frequently accessed data.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Intelligent-Tiering:</b> Automatically moves objects between two access tiers based on changing access patterns.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Standard-IA (Infrequent Access):</b> For data that is accessed less frequently but requires rapid access when needed.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>One Zone-IA:</b> Lower-cost option for infrequently accessed data that doesn't require multiple Availability Zone resilience.  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Glacier and Glacier Deep Archive: </b> For archival data with retrieval times ranging from minutes to hours.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> Standard:</b> Provides high durability, availability, and performance for frequently accessed data.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> Intelligent-Tiering:</b> Automatically moves objects between two access tiers based on changing access patterns.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> Standard-IA (Infrequent Access):</b> For data that is accessed less frequently but requires rapid access when needed.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> One Zone-IA:</b> Lower-cost option for infrequently accessed data that doesn't require multiple Availability Zone resilience.  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b> Glacier and Glacier Deep Archive: </b> For archival data with retrieval times ranging from minutes to hours.  <br>
 <br>
 <b> •	Networking & Content Delivery: </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>	Amazon VPC – </b>for creating isolated cloud networks <br>
