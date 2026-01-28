@@ -13,7 +13,7 @@ Seasoned Lead DevOps Engineer with 16+ years of technical expertise in deliverin
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Ability To Drive Technical Transformation For Service, Cost Benefits <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Business-Focused Technical Engineer <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Security-First Mindset <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Knowledge Multipli  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Knowledge Multiplier  <br>
  <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <div class="grid">
