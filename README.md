@@ -19,11 +19,11 @@ Seasoned Lead DevOps Engineer with 16+ years of technical expertise in deliverin
  <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <div class="grid">
-    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"style="width:36px; height:36px;" >  <span>Terraform</span></div>
+    <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"style="width:36px; height:36px;" >  <span>Terraform (5 Years) </span></div>
 </div>
-  <h3>Terraform (5 Years) </h3> 
 Deep practical expertise in designing and implementing scalable, secure, and production-grade infrastructure across AWS-cloud environments using
 Terraform and its native Configuration Language (HCL)  <br>
+ <br>
 Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733; Providers <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9733; Resources  <br>
