@@ -5,29 +5,18 @@ Seasoned Lead DevOps Engineer with 16+ years of technical expertise in deliverin
 # 💻 Tech Stack:
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)  ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
-
 ---
 [![](https://visitcount.itsvg.in/api?id=deepak11&icon=0&color=0)](https://visitcount.itsvg.in)
-
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
- 
- <h2> What I Do Best </h2>
-🎯 I Transform Cloud Infrastructure Into Business Value <br>
-<br>
-
-💰 Cost Optimizer <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60% average reduction through serverless <br>	
-
-🔒 Security First <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zero-breach record with IAM & KMS	<br>
-
-🚀 Performance  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optimized performance <br>	
-
-🤖 AI-Powered <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agentic workflows for auto-triage <br>
-
-<h2> 💻 Technical Skills </h2>  
+ <h2> 🔑 KEY DIFFERENTIATORS  </h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632;Exceptional Technical Proficiency & Debugging Mastery <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Rapid Concept-to-Execution Cycle <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Proven AWS Cloud Cost Optimization Specialist <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Ability To Drive Technical Transformation For Service, Cost Benefits <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Business-Focused Technical Engineer <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Security-First Mindset <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Knowledge Multipli  <br>
+ <h2> 💻 Technical Skills </h2>  
 <h3> Dev Ops Tools (10 Years)</h3> 
 <div class="grid">
     <div class="card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"style="width:36px; height:36px;" >  <span>Terraform</span></div>
