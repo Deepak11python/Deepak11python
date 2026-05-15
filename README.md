@@ -1,5 +1,5 @@
 # 💫 About Me:
-<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"><img align="right" alt="Coding" width="300" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" data-animated-image="" style="max-width: 80%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"><img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" data-animated-image="" style="max-width: 80%;"></a></p>
 
 Seasoned Lead DevOps Engineer with 16+ years of technical expertise <br> 
 Expereince in delivering DevOps solutions across BFSI, Telecom, Storage, and 
