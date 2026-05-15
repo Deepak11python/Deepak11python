@@ -132,3 +132,5 @@ Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 
 <h3> Helm, Helm Charts GitOps, Argo CD, GitLab CI </h3><br> 
 <h3> Linux, Shell Scripting (16 Years) </h3><br>
+<img width="1408" height="768" alt="Gemini_Generated_Image_rdwreordwreordwr" src="https://github.com/user-attachments/assets/cbbeb0bb-1b77-42ed-b1e6-4d7bcf69969b" />
+
