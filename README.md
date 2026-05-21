@@ -32,7 +32,11 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
   <a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg"><img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" width="40" height="40" style="max-width: 100%; height: auto; max-height: 40px;; aspect-ratio: 40 / 40; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
   <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/28abd5ef347f4db16b2f3d39b2e8fd64269f747f987a65b1fa07fcad150a4f6d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667"><img src="https://camo.githubusercontent.com/28abd5ef347f4db16b2f3d39b2e8fd64269f747f987a65b1fa07fcad150a4f6d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667" width="40" height="40" data-canonical-src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" style="max-width: 100%; height: auto; max-height: 40px;; aspect-ratio: 40 / 40; background-color: var(--bgColor-muted); border-radius: 6px" class="js-gh-image-fallback"></a>
 </p>
-<img width="1408" height="768" alt="Gemini_Generated_Image_rdwreordwreordwr" src="https://github.com/user-attachments/assets/cbbeb0bb-1b77-42ed-b1e6-4d7bcf69969b" 
+
+  # WORK HISTORY:
+
+<p><img width="1408" height="768" alt="Gemini_Generated_Image_rdwreordwreordwr" src="https://github.com/user-attachments/assets/cbbeb0bb-1b77-42ed-b1e6-4d7bcf69969b"
+ </p> 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
  <h2> 🔑 KEY DIFFERENTIATORS  </h2>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632;Exceptional Technical Proficiency & Debugging Mastery <br>
