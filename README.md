@@ -9,7 +9,7 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 
 # 💻 Tech Stack:
 
-<img src="TECH_STACK.png" alt="A brief description of the image">
+<img src="TECH_STACK11.jpg" alt="A brief description of the image">
   
   
 # WORK HISTORY:
