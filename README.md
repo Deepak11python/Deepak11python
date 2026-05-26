@@ -10,7 +10,9 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 # 💻 Tech Stack:
 
 <img src="TECH_STACK.png" alt="A brief description of the image">
-  # WORK HISTORY:
+  
+  
+# WORK HISTORY:
 
 <p><img width="1408" height="768" alt="Gemini_Generated_Image_rdwreordwreordwr" src="https://github.com/user-attachments/assets/cbbeb0bb-1b77-42ed-b1e6-4d7bcf69969b"
  </p> 
