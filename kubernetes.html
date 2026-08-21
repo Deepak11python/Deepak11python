@@ -1,112 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<style>
+    <title>Kubernetes Expertise | Deepak Golde</title>
 
-.kubernetes-section {
-    margin: 20px 0 30px 0;
-}
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-.kubernetes-title {
-    color: #007acc;
-    font-size: 1.2em;
-    border-bottom: 2px solid #ecf0f1;
-    padding-bottom: 6px;
-    margin-bottom: 18px;
-    text-transform: uppercase;
-}
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+        }
 
-.kubernetes-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-}
+        .kubernetes-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
 
-.k8s-card {
-    background: #ffffff;
-    border: 1px solid #dcdde1;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-    break-inside: avoid;
-}
+        .kubernetes-title {
+            color: #007acc;
+            font-size: 1.4em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
 
-.k8s-card-header {
-    background: #1e70b8;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 8px 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-}
+        .kubernetes-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
 
-.k8s-card ul {
-    margin: 0;
-    padding: 10px 15px 12px 30px;
-    list-style-type: disc;
-}
+        .k8s-card {
+            background: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
 
-.k8s-card li {
-    font-size: 12px;
-    line-height: 1.45;
-    margin: 2px 0;
-    color: #2c3e50;
-}
+        .k8s-card-header {
+            background: #1e70b8;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 8px 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
 
-/* Responsive */
-@media (max-width: 900px) {
-    .kubernetes-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+        .k8s-card ul {
+            margin: 0;
+            padding: 10px 15px 12px 30px;
+            list-style-type: disc;
+        }
 
-@media (max-width: 600px) {
-    .kubernetes-grid {
-        grid-template-columns: 1fr;
-    }
-}
+        .k8s-card li {
+            font-size: 12px;
+            line-height: 1.45;
+            margin: 2px 0;
+            color: #2c3e50;
+        }
 
-/* PDF / Print */
-@media print {
+        @media (max-width: 900px) {
+            .kubernetes-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
 
-    .kubernetes-section {
-        page-break-inside: auto;
-    }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
 
-    .k8s-card {
-        break-inside: avoid;
-        page-break-inside: avoid;
-        box-shadow: none;
-    }
+            .kubernetes-section {
+                padding: 15px;
+            }
 
-    .kubernetes-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-    }
+            .kubernetes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
 
-    .k8s-card-header {
-        print-color-adjust: exact;
-        -webkit-print-color-adjust: exact;
-    }
+        @media print {
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
 
-}
-</style>
+            .kubernetes-section {
+                box-shadow: none;
+            }
+
+            .k8s-card {
+                box-shadow: none;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .kubernetes-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+
+            .k8s-card-header {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
 </head>
- <body>
 
-<!-- ================================
-     KUBERNETES EXPERTISE
-     ================================ -->
+<body>
 
 <section class="kubernetes-section">
 
-    <h3 class="kubernetes-title">
+    <h1 class="kubernetes-title">
         ☸ Kubernetes
-    </h3>
+    </h1>
 
     <div class="kubernetes-grid">
 
@@ -129,7 +156,7 @@
 
         <!-- Objects & Metadata -->
         <div class="k8s-card">
-            <div class="k8s-card-header">Objects & Metadata</div>
+            <div class="k8s-card-header">Objects &amp; Metadata</div>
             <ul>
                 <li>Namespaces</li>
                 <li>Labels</li>
@@ -186,9 +213,9 @@
             </ul>
         </div>
 
-        <!-- Scaling & Scheduling -->
+        <!-- Scaling -->
         <div class="k8s-card">
-            <div class="k8s-card-header">Scaling & Scheduling</div>
+            <div class="k8s-card-header">Scaling &amp; Scheduling</div>
             <ul>
                 <li>HPA</li>
                 <li>VPA</li>
@@ -203,9 +230,9 @@
             </ul>
         </div>
 
-        <!-- Health & Reliability -->
+        <!-- Health -->
         <div class="k8s-card">
-            <div class="k8s-card-header">Health & Reliability</div>
+            <div class="k8s-card-header">Health &amp; Reliability</div>
             <ul>
                 <li>Liveness Probes</li>
                 <li>Readiness Probes</li>
@@ -248,7 +275,7 @@
             </ul>
         </div>
 
-        <!-- CRDs -->
+        <!-- Extensibility -->
         <div class="k8s-card">
             <div class="k8s-card-header">Extensibility</div>
             <ul>
@@ -262,7 +289,7 @@
 
         <!-- Monitoring -->
         <div class="k8s-card">
-            <div class="k8s-card-header">Monitoring & Logging</div>
+            <div class="k8s-card-header">Monitoring &amp; Logging</div>
             <ul>
                 <li>Metrics Server</li>
                 <li>Metrics</li>
@@ -306,7 +333,7 @@
 
         <!-- Debugging -->
         <div class="k8s-card">
-            <div class="k8s-card-header">Debugging & Troubleshooting</div>
+            <div class="k8s-card-header">Debugging &amp; Troubleshooting</div>
             <ul>
                 <li>Pod Failures</li>
                 <li>CrashLoopBackOff</li>
@@ -326,6 +353,6 @@
     </div>
 
 </section>
-     </body>
-</html>
 
+</body>
+</html>
