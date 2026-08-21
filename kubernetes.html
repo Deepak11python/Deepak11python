@@ -4,10 +4,103 @@
 <head>
 
     <meta charset="UTF-8">
+<style>
+
+.kubernetes-section {
+    margin: 20px 0 30px 0;
+}
+
+.kubernetes-title {
+    color: #007acc;
+    font-size: 1.2em;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 6px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.kubernetes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.k8s-card {
+    background: #ffffff;
+    border: 1px solid #dcdde1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    break-inside: avoid;
+}
+
+.k8s-card-header {
+    background: #1e70b8;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 8px 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+.k8s-card ul {
+    margin: 0;
+    padding: 10px 15px 12px 30px;
+    list-style-type: disc;
+}
+
+.k8s-card li {
+    font-size: 12px;
+    line-height: 1.45;
+    margin: 2px 0;
+    color: #2c3e50;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .kubernetes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .kubernetes-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* PDF / Print */
+@media print {
+
+    .kubernetes-section {
+        page-break-inside: auto;
+    }
+
+    .k8s-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        box-shadow: none;
+    }
+
+    .kubernetes-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .k8s-card-header {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+}
+
+</style>
 
 </head>
      <body>
-```html
+
 <!-- ================================
      KUBERNETES EXPERTISE
      ================================ -->
@@ -239,97 +332,3 @@
      </body>
 
 
-<style>
-
-.kubernetes-section {
-    margin: 20px 0 30px 0;
-}
-
-.kubernetes-title {
-    color: #007acc;
-    font-size: 1.2em;
-    border-bottom: 2px solid #ecf0f1;
-    padding-bottom: 6px;
-    margin-bottom: 18px;
-    text-transform: uppercase;
-}
-
-.kubernetes-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-}
-
-.k8s-card {
-    background: #ffffff;
-    border: 1px solid #dcdde1;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-    break-inside: avoid;
-}
-
-.k8s-card-header {
-    background: #1e70b8;
-    color: #ffffff;
-    text-align: center;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 8px 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-}
-
-.k8s-card ul {
-    margin: 0;
-    padding: 10px 15px 12px 30px;
-    list-style-type: disc;
-}
-
-.k8s-card li {
-    font-size: 12px;
-    line-height: 1.45;
-    margin: 2px 0;
-    color: #2c3e50;
-}
-
-/* Responsive */
-@media (max-width: 900px) {
-    .kubernetes-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .kubernetes-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* PDF / Print */
-@media print {
-
-    .kubernetes-section {
-        page-break-inside: auto;
-    }
-
-    .k8s-card {
-        break-inside: avoid;
-        page-break-inside: avoid;
-        box-shadow: none;
-    }
-
-    .kubernetes-grid {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-    }
-
-    .k8s-card-header {
-        print-color-adjust: exact;
-        -webkit-print-color-adjust: exact;
-    }
-
-}
-
-</style>
-```
