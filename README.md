@@ -321,6 +321,210 @@ Have in-depth knowledge and practical hands-on on given below topics: </b> <br>
 
 
 <h3>Kubernetes (5 Years) </h3><br>
+<section class="kubernetes-section">
+<h3 class="kubernetes-title">☸ Kubernetes</h3>
+<div class="kubernetes-grid"><!-- Architecture -->
+<div class="k8s-card">
+<div class="k8s-card-header">Architecture</div>
+<ul>
+<li>Monolithic</li>
+<li>Microservices</li>
+<li>Control Plane</li>
+<li>API Server</li>
+<li>Scheduler</li>
+<li>Controller Manager</li>
+<li>etcd</li>
+<li>Kubelet</li>
+<li>Kube Proxy</li>
+<li>Container Runtime</li>
+</ul>
+</div>
+<!-- Objects & Metadata -->
+<div class="k8s-card">
+<div class="k8s-card-header">Objects &amp; Metadata</div>
+<ul>
+<li>Namespaces</li>
+<li>Labels</li>
+<li>Selectors</li>
+<li>Annotations</li>
+<li>ConfigMaps</li>
+<li>Secrets</li>
+</ul>
+</div>
+<!-- Workloads -->
+<div class="k8s-card">
+<div class="k8s-card-header">Workloads</div>
+<ul>
+<li>Pods</li>
+<li>Deployments</li>
+<li>StatefulSets</li>
+<li>DaemonSets</li>
+<li>ReplicaSets</li>
+<li>Jobs</li>
+<li>CronJobs</li>
+<li>Sidecar Containers</li>
+<li>Init Containers</li>
+</ul>
+</div>
+<!-- Networking -->
+<div class="k8s-card">
+<div class="k8s-card-header">Networking</div>
+<ul>
+<li>Cluster Networking</li>
+<li>Services</li>
+<li>ClusterIP</li>
+<li>NodePort</li>
+<li>LoadBalancer</li>
+<li>Headless Services</li>
+<li>Ingress</li>
+<li>Ingress Controllers</li>
+<li>Network Policies</li>
+<li>DNS</li>
+</ul>
+</div>
+<!-- Storage -->
+<div class="k8s-card">
+<div class="k8s-card-header">Storage</div>
+<ul>
+<li>Persistent Volumes</li>
+<li>Persistent Volume Claims</li>
+<li>StorageClasses</li>
+<li>Dynamic Provisioning</li>
+<li>Volume Mounts</li>
+<li>CSI</li>
+</ul>
+</div>
+<!-- Scaling & Scheduling -->
+<div class="k8s-card">
+<div class="k8s-card-header">Scaling &amp; Scheduling</div>
+<ul>
+<li>HPA</li>
+<li>VPA</li>
+<li>Node Affinity</li>
+<li>Pod Affinity</li>
+<li>Pod Anti-Affinity</li>
+<li>Taints</li>
+<li>Tolerations</li>
+<li>Resource Requests</li>
+<li>Resource Limits</li>
+<li>Resource Quotas</li>
+</ul>
+</div>
+<!-- Health & Reliability -->
+<div class="k8s-card">
+<div class="k8s-card-header">Health &amp; Reliability</div>
+<ul>
+<li>Liveness Probes</li>
+<li>Readiness Probes</li>
+<li>Startup Probes</li>
+<li>High Availability</li>
+<li>Rolling Updates</li>
+<li>Rollbacks</li>
+</ul>
+</div>
+<!-- Security -->
+<div class="k8s-card">
+<div class="k8s-card-header">Security</div>
+<ul>
+<li>RBAC</li>
+<li>Roles</li>
+<li>ClusterRoles</li>
+<li>RoleBindings</li>
+<li>ServiceAccounts</li>
+<li>Pod Security</li>
+<li>Network Policies</li>
+<li>Secrets</li>
+<li>Security Contexts</li>
+</ul>
+</div>
+<!-- Administration -->
+<div class="k8s-card">
+<div class="k8s-card-header">Cluster Administration</div>
+<ul>
+<li>Cluster Administration</li>
+<li>Node Management</li>
+<li>Namespaces</li>
+<li>RBAC</li>
+<li>Cluster Upgrades</li>
+<li>Node Maintenance</li>
+<li>Drain</li>
+<li>Cordon</li>
+<li>Uncordon</li>
+</ul>
+</div>
+<!-- CRDs -->
+<div class="k8s-card">
+<div class="k8s-card-header">Extensibility</div>
+<ul>
+<li>Custom Resource Definitions</li>
+<li>CRDs</li>
+<li>Custom Resources</li>
+<li>Operators</li>
+<li>Controllers</li>
+</ul>
+</div>
+<!-- Monitoring -->
+<div class="k8s-card">
+<div class="k8s-card-header">Monitoring &amp; Logging</div>
+<ul>
+<li>Metrics Server</li>
+<li>Metrics</li>
+<li>Events</li>
+<li>Logs</li>
+<li>Container Logs</li>
+<li>Resource Monitoring</li>
+<li>Health Monitoring</li>
+</ul>
+</div>
+<!-- Helm -->
+<div class="k8s-card">
+<div class="k8s-card-header">Helm</div>
+<ul>
+<li>Helm</li>
+<li>Charts</li>
+<li>Templates</li>
+<li>Values</li>
+<li>Releases</li>
+<li>Repositories</li>
+<li>Dependencies</li>
+<li>Upgrades</li>
+<li>Rollbacks</li>
+</ul>
+</div>
+<!-- Cloud Native -->
+<div class="k8s-card">
+<div class="k8s-card-header">Cloud-Native Kubernetes</div>
+<ul>
+<li>AWS EKS</li>
+<li>Azure AKS</li>
+<li>Google GKE</li>
+<li>Managed Kubernetes</li>
+<li>Cloud Networking</li>
+<li>Cloud Storage</li>
+<li>IAM Integration</li>
+</ul>
+</div>
+<!-- Debugging -->
+<div class="k8s-card">
+<div class="k8s-card-header">Debugging &amp; Troubleshooting</div>
+<ul>
+<li>Pod Failures</li>
+<li>CrashLoopBackOff</li>
+<li>ImagePullBackOff</li>
+<li>Pending Pods</li>
+<li>Service Connectivity</li>
+<li>DNS Issues</li>
+<li>Ingress Issues</li>
+<li>Storage Issues</li>
+<li>Scheduling Issues</li>
+<li>Resource Issues</li>
+<li>Application Logs</li>
+<li>Cluster Events</li>
+</ul>
+</div>
+</div>
+</section>
+<p>```</p>
 <h3> Docker (5 Years) </h3><br>
 <h3> Jenkins CI-CD, GIT (8 Years) </h3><br> 
 <h3> Ansible (5 Years) </h3><br>
