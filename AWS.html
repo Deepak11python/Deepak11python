@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AWS Cloud Expertise | Deepak Golde</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+        }
+
+        .aws-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .aws-title {
+            color: #007acc;
+            font-size: 1.4em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
+
+        .aws-intro {
+            background: #f8fafc;
+            border-left: 4px solid #1e70b8;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .aws-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .aws-card {
+            background: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .aws-card-header {
+            background: #1e70b8;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 8px 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .aws-card ul {
+            margin: 0;
+            padding: 10px 15px 12px 30px;
+            list-style-type: disc;
+        }
+
+        .aws-card li {
+            font-size: 12px;
+            line-height: 1.45;
+            margin: 3px 0;
+            color: #2c3e50;
+        }
+
+        .aws-card li strong {
+            color: #1e70b8;
+        }
+
+        .experience {
+            margin-top: 20px;
+            padding: 12px 15px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 4px solid #1e70b8;
+            font-size: 12px;
+            line-height: 1.6;
+        }
+
+        .experience ul {
+            margin: 5px 0 0 0;
+            padding-left: 20px;
+        }
+
+        @media (max-width: 900px) {
+            .aws-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .aws-section {
+                padding: 15px;
+            }
+
+            .aws-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
+
+            .aws-section {
+                box-shadow: none;
+            }
+
+            .aws-card {
+                box-shadow: none;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .aws-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+
+            .aws-card-header {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="aws-section">
+
+    <h1 class="aws-title">
+        ☁ AWS Cloud (5 Years)
+    </h1>
+
+    <div class="aws-intro">
+        <strong>Proficient in key AWS services used to design and implement scalable,
+        highly available, secure, and cost-optimized cloud architectures.</strong>
+    </div>
+
+    <div class="aws-grid">
+
+        <!-- Compute & Scaling -->
+        <div class="aws-card">
+            <div class="aws-card-header">Compute &amp; Scaling</div>
+            <ul>
+                <li><strong>Amazon EC2</strong> – Flexible virtual server provisioning</li>
+                <li><strong>AWS Lambda</strong> – Serverless compute and event-driven execution</li>
+                <li><strong>AWS Elastic Beanstalk</strong> – Simplified application deployment</li>
+                <li><strong>Auto Scaling</strong> – Dynamic scaling based on traffic and usage</li>
+                <li>Launch Templates</li>
+                <li>AMI Management</li>
+                <li>EC2 Instance Types</li>
+                <li>Elastic IP</li>
+            </ul>
+        </div>
+
+        <!-- S3 Storage -->
+        <div class="aws-card">
+            <div class="aws-card-header">S3 Storage Classes</div>
+            <ul>
+                <li><strong>Standard</strong> – Frequently accessed data</li>
+                <li><strong>Intelligent-Tiering</strong> – Automatic access-tier optimization</li>
+                <li><strong>Standard-IA</strong> – Infrequently accessed data</li>
+                <li><strong>One Zone-IA</strong> – Lower-cost single-AZ storage</li>
+                <li><strong>Glacier Instant Retrieval</strong></li>
+                <li><strong>Glacier Flexible Retrieval</strong></li>
+                <li><strong>Glacier Deep Archive</strong></li>
+                <li>Lifecycle Policies</li>
+                <li>Versioning</li>
+            </ul>
+        </div>
+
+        <!-- S3 Features -->
+        <div class="aws-card">
+            <div class="aws-card-header">S3 Features &amp; Backup</div>
+            <ul>
+                <li>S3 Buckets</li>
+                <li>Bucket Policies</li>
+                <li>Object Ownership</li>
+                <li>Encryption</li>
+                <li>Versioning</li>
+                <li>Lifecycle Management</li>
+                <li>Replication</li>
+                <li>Cross-Region Replication</li>
+                <li>S3 Backup &amp; Recovery</li>
+            </ul>
+        </div>
+
+        <!-- VPC -->
+        <div class="aws-card">
+            <div class="aws-card-header">Networking &amp; VPC</div>
+            <ul>
+                <li><strong>Amazon VPC</strong> – Isolated cloud networks</li>
+                <li>Public Subnets</li>
+                <li>Private Subnets</li>
+                <li>Internet Gateway</li>
+                <li>NAT Gateway</li>
+                <li>Route Tables</li>
+                <li>Security Groups</li>
+                <li>Network ACLs</li>
+                <li>Elastic Network Interfaces</li>
+            </ul>
+        </div>
+
+        <!-- Connectivity -->
+        <div class="aws-card">
+            <div class="aws-card-header">Network Connectivity</div>
+            <ul>
+                <li><strong>VPC Peering</strong></li>
+                <li><strong>Transit Gateway (TGW)</strong></li>
+                <li><strong>VPC Endpoints</strong></li>
+                <li>Gateway Endpoints</li>
+                <li>Interface Endpoints</li>
+                <li>VPN Connectivity</li>
+                <li>Site-to-Site VPN</li>
+                <li>Hybrid Connectivity</li>
+            </ul>
+        </div>
+
+        <!-- DNS & CDN -->
+        <div class="aws-card">
+            <div class="aws-card-header">DNS &amp; Content Delivery</div>
+            <ul>
+                <li><strong>Amazon Route 53</strong> – DNS &amp; domain management</li>
+                <li>Hosted Zones</li>
+                <li>DNS Records</li>
+                <li>Health Checks</li>
+                <li>Routing Policies</li>
+                <li><strong>Amazon CloudFront</strong></li>
+                <li>Edge Locations</li>
+                <li>CloudFront Caching</li>
+            </ul>
+        </div>
+
+        <!-- API & Security -->
+        <div class="aws-card">
+            <div class="aws-card-header">API &amp; Web Security</div>
+            <ul>
+                <li><strong>Amazon API Gateway</strong></li>
+                <li>REST APIs</li>
+                <li>HTTP APIs</li>
+                <li>API Authentication</li>
+                <li><strong>AWS WAF</strong></li>
+                <li>Managed Rules</li>
+                <li>Custom Rules</li>
+                <li>OWASP Top 10 Protection</li>
+            </ul>
+        </div>
+
+        <!-- ACM -->
+        <div class="aws-card">
+            <div class="aws-card-header">Certificates &amp; TLS</div>
+            <ul>
+                <li><strong>AWS Certificate Manager (ACM)</strong></li>
+                <li>SSL/TLS Certificates</li>
+                <li>Certificate Validation</li>
+                <li>DNS Validation</li>
+                <li>Certificate Renewal</li>
+                <li>HTTPS Configuration</li>
+                <li>Load Balancer Integration</li>
+                <li>CloudFront Integration</li>
+            </ul>
+        </div>
+
+        <!-- Load Balancer -->
+        <div class="aws-card">
+            <div class="aws-card-header">Load Balancers</div>
+            <ul>
+                <li><strong>Application Load Balancer (ALB)</strong></li>
+                <li>Path-Based Routing</li>
+                <li>Host-Based Routing</li>
+                <li>Target Groups</li>
+                <li>Health Checks</li>
+                <li><strong>Network Load Balancer (NLB)</strong></li>
+                <li><strong>Gateway Load Balancer (GWLB)</strong></li>
+            </ul>
+        </div>
+
+        <!-- IAM -->
+        <div class="aws-card">
+            <div class="aws-card-header">Security &amp; IAM</div>
+            <ul>
+                <li><strong>AWS IAM</strong></li>
+                <li>Users</li>
+                <li>Groups</li>
+                <li>Roles</li>
+                <li>Policies</li>
+                <li>Permission Boundaries</li>
+                <li>Identity-Based Policies</li>
+                <li>Resource-Based Policies</li>
+                <li>Least Privilege Access</li>
+            </ul>
+        </div>
+
+        <!-- Secrets & Encryption -->
+        <div class="aws-card">
+            <div class="aws-card-header">Secrets &amp; Encryption</div>
+            <ul>
+                <li><strong>AWS Secrets Manager</strong></li>
+                <li>Secret Rotation</li>
+                <li>Application Credentials</li>
+                <li><strong>AWS KMS</strong></li>
+                <li>Customer Managed Keys</li>
+                <li>AWS Managed Keys</li>
+                <li>Data Encryption</li>
+                <li>Key Policies</li>
+            </ul>
+        </div>
+
+        <!-- Organizations -->
+        <div class="aws-card">
+            <div class="aws-card-header">AWS Organizations</div>
+            <ul>
+                <li><strong>AWS Organizations</strong></li>
+                <li><strong>AWS Control Tower</strong></li>
+                <li>Multi-Account Architecture</li>
+                <li>Organizational Units</li>
+                <li>Service Control Policies</li>
+                <li>Account Governance</li>
+                <li>Centralized Management</li>
+                <li>Landing Zones</li>
+            </ul>
+        </div>
+
+        <!-- EBS -->
+        <div class="aws-card">
+            <div class="aws-card-header">Storage &amp; Backup</div>
+            <ul>
+                <li><strong>Amazon EBS</strong></li>
+                <li>General Purpose SSD</li>
+                <li>Provisioned IOPS</li>
+                <li>EBS Snapshots</li>
+                <li>Snapshot Lifecycle</li>
+                <li><strong>AWS Backup</strong></li>
+                <li>Backup Plans</li>
+                <li>Backup Vaults</li>
+                <li>Recovery &amp; Restore</li>
+            </ul>
+        </div>
+
+        <!-- RDS -->
+        <div class="aws-card">
+            <div class="aws-card-header">Database Services</div>
+            <ul>
+                <li><strong>Amazon RDS</strong></li>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+                <li>Multi-AZ</li>
+                <li>Read Replicas</li>
+                <li>Automated Backups</li>
+                <li>Snapshots</li>
+                <li>Parameter Groups</li>
+                <li>Security Groups</li>
+            </ul>
+        </div>
+
+        <!-- Aurora -->
+        <div class="aws-card">
+            <div class="aws-card-header">Aurora &amp; NoSQL</div>
+            <ul>
+                <li><strong>Amazon Aurora</strong></li>
+                <li>Aurora MySQL</li>
+                <li>Aurora PostgreSQL</li>
+                <li>Multi-AZ Architecture</li>
+                <li>Read Replicas</li>
+                <li><strong>Amazon DynamoDB</strong></li>
+                <li>Tables</li>
+                <li>Indexes</li>
+                <li>On-Demand Capacity</li>
+            </ul>
+        </div>
+
+        <!-- Caching -->
+        <div class="aws-card">
+            <div class="aws-card-header">Caching</div>
+            <ul>
+                <li><strong>Amazon ElastiCache</strong></li>
+                <li>Redis</li>
+                <li>Memcached</li>
+                <li>In-Memory Caching</li>
+                <li>Cache Clusters</li>
+                <li>High Availability</li>
+                <li>Performance Optimization</li>
+            </ul>
+        </div>
+
+        <!-- CI/CD -->
+        <div class="aws-card">
+            <div class="aws-card-header">CI/CD &amp; DevOps</div>
+            <ul>
+                <li><strong>AWS CodeCommit</strong></li>
+                <li><strong>AWS CodeBuild</strong></li>
+                <li><strong>AWS CodeDeploy</strong></li>
+                <li><strong>AWS CodePipeline</strong></li>
+                <li>Build Automation</li>
+                <li>Deployment Automation</li>
+                <li>Blue/Green Deployments</li>
+                <li>Rolling Deployments</li>
+                <li>CI/CD Integration</li>
+            </ul>
+        </div>
+
+        <!-- Containers -->
+        <div class="aws-card">
+            <div class="aws-card-header">Containers &amp; Orchestration</div>
+            <ul>
+                <li><strong>Amazon ECS</strong></li>
+                <li><strong>Amazon EKS</strong></li>
+                <li><strong>AWS Fargate</strong></li>
+                <li>Container Registry</li>
+                <li>Amazon ECR</li>
+                <li>Docker Integration</li>
+                <li>Kubernetes Integration</li>
+                <li>Container Networking</li>
+            </ul>
+        </div>
+
+        <!-- Monitoring -->
+        <div class="aws-card">
+            <div class="aws-card-header">Monitoring &amp; Logging</div>
+            <ul>
+                <li><strong>Amazon CloudWatch</strong></li>
+                <li>Metrics</li>
+                <li>Alarms</li>
+                <li>Dashboards</li>
+                <li>CloudWatch Logs</li>
+                <li>Log Groups</li>
+                <li>Log Streams</li>
+                <li>EventBridge</li>
+                <li>CloudTrail</li>
+            </ul>
+        </div>
+
+        <!-- Cost Optimization -->
+        <div class="aws-card">
+            <div class="aws-card-header">Cost Optimization</div>
+            <ul>
+                <li>AWS Cost Explorer</li>
+                <li>AWS Budgets</li>
+                <li>Rightsizing</li>
+                <li>Reserved Instances</li>
+                <li>Savings Plans</li>
+                <li>Unused Resource Identification</li>
+                <li>Storage Optimization</li>
+                <li>Auto Scaling</li>
+                <li>Cost Allocation Tags</li>
+            </ul>
+        </div>
+
+        <!-- EOL -->
+        <div class="aws-card">
+            <div class="aws-card-header">EOL &amp; Migration</div>
+            <ul>
+                <li>AWS Service EOL Identification</li>
+                <li>End-of-Life Assessment</li>
+                <li>Migration Planning</li>
+                <li>Supported Alternatives</li>
+                <li>Application Compatibility</li>
+                <li>Infrastructure Modernization</li>
+                <li>Risk Assessment</li>
+                <li>Compliance &amp; Best Practices</li>
+            </ul>
+        </div>
+
+        <!-- High Availability -->
+        <div class="aws-card">
+            <div class="aws-card-header">High Availability &amp; DR</div>
+            <ul>
+                <li>Multi-AZ Architecture</li>
+                <li>Multi-Region Architecture</li>
+                <li>Fault Tolerance</li>
+                <li>Auto Scaling</li>
+                <li>Load Balancing</li>
+                <li>Backup &amp; Restore</li>
+                <li>Disaster Recovery</li>
+                <li>Recovery Time Objective</li>
+                <li>Recovery Point Objective</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Experience Summary -->
+    <div class="experience">
+
+        <strong>Professional AWS Experience:</strong>
+
+        <ul>
+            <li>
+                Experienced in identifying and managing end-of-life (EOL) AWS services,
+                ensuring seamless migration to supported alternatives while maintaining
+                compliance with AWS best practices.
+            </li>
+
+            <li>
+                Implemented and maintained AWS cost optimization strategies to improve
+                cloud resource efficiency and reduce operational expenses.
+            </li>
+
+            <li>
+                Optimized compute, storage, networking, database, and application
+                resources through rightsizing, scaling, lifecycle management,
+                and removal of unused resources.
+            </li>
+
+            <li>
+                Designed and maintained scalable, highly available, secure,
+                and production-ready AWS cloud architectures.
+            </li>
+        </ul>
+
+    </div>
+
+</section>
+
+</body>
+</html>
