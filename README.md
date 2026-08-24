@@ -1,3 +1,43 @@
+<style>
+    body {
+        margin: 0;
+        padding: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f4f7fb;
+        color: #222;
+    }
+
+    .skills-container {
+        max-width: 700px;
+        margin: auto;
+        background: #ffffff;
+        padding: 30px 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.10);
+    }
+
+    h2 {
+        text-align: center;
+        color: #1f4e79;
+        margin-bottom: 25px;
+        font-size: 28px;
+    }
+
+    .skills-list {
+        margin: 0;
+        padding-left: 30px;
+    }
+
+    .skills-list li {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 14px 0;
+        padding: 10px 15px;
+        border-left: 4px solid #1f4e79;
+        background: #f8fafc;
+        border-radius: 5px;
+    }
+</style>
 
 # 💫 About Me:
 <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif"><img align="right" alt="Coding" width="350" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" data-animated-image="" style="max-width: 80%;"></a></p>
@@ -9,6 +49,22 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 
 
 # 💻 Tech Stack:
+
+<div class="skills-container">
+
+
+    <ul class="skills-list">
+        <li>Kubernetes</li>
+        <li>Terraform</li>
+        <li>AWS</li>
+        <li>CI/CD</li>
+        <li>DevSecOps</li>
+    </ul>
+
+</div>
+
+
+
 
 ☸️ [Kubernetes](https://deepak11python.github.io/Deepak11python/kubernetes.html)
 
