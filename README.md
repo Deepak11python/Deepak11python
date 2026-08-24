@@ -1,16 +1,5 @@
 <style>
    
-    h2 {
-        text-align: center;
-        color: #1f4e79;
-        margin-bottom: 25px;
-        font-size: 28px;
-    }
-
-    .skills-list {
-        margin: 0;
-        padding-left: 30px;
-    }
 
     .skills-list li {
         font-size: 20px;
