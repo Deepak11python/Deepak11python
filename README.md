@@ -1,21 +1,5 @@
 <style>
-    body {
-        margin: 0;
-        padding: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        background: #f4f7fb;
-        color: #222;
-    }
-
-    .skills-container {
-        max-width: 700px;
-        margin: auto;
-        background: #ffffff;
-        padding: 30px 40px;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.10);
-    }
-
+    
     h2 {
         text-align: center;
         color: #1f4e79;
