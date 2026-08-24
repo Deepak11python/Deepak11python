@@ -1,5 +1,5 @@
 <style>
-    
+   
     h2 {
         text-align: center;
         color: #1f4e79;
@@ -38,7 +38,7 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 
 
     <ul class="skills-list">
-        <li>Kubernetes</li>
+        <li>☸️ [Kubernetes](https://deepak11python.github.io/Deepak11python/kubernetes.html)</li>
         <li>Terraform</li>
         <li>AWS</li>
         <li>CI/CD</li>
