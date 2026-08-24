@@ -9,6 +9,21 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 
 
 # 💻 Tech Stack:
+ 
+ <section class="skills-section">
+
+    <h2>Technical Skills</h2>
+
+    <ul>
+        <li><a href="aws.html" target="_blank">AWS</a></li>
+        <li><a href="terraform.html" target="_blank">Terraform</a></li>
+        <li><a href="kubernetes.html" target="https://deepak11python.github.io/Deepak11python/kubernetes.html">Kubernetes</a></li>
+        <li><a href="cicd.html" target="_blank">CICD</a></li>
+        <li><a href="devsecops.html" target="_blank">DevSecOps</a></li>
+    </ul>
+
+</section>
+ 
  ☸️ [Kubernetes](https://deepak11python.github.io/Deepak11python/kubernetes.html)
  Terraform
  AWS
