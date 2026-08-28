@@ -9,7 +9,10 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 
 
 # 💻 Tech Stack:
- 
+
+ <span style="font-weight: bold; color: #007acc;">
+        Click on each Link to see more Details
+    </span>
  <section class="skills-section">
         <ul>
         <li><a href="AWS.html" target="https://deepak11python.github.io/Deepak11python/AWS.html">AWS</a></li>
