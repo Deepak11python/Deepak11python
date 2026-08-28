@@ -9,10 +9,21 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 
 
 # 💻 Tech Stack:
-
- <span style="font-weight: bold; color: #007acc;">
+<div style="
+    text-align: center;
+    margin: 20px 0;
+    padding: 12px 20px;
+    border: 1px solid #d9e2ec;
+    border-radius: 6px;
+    background-color: #f7f9fb;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #444;
+">
+    <span style="font-weight: bold; color: #007acc;">
         Click on each Link to see more Details
     </span>
+</div>
  <section class="skills-section">
         <ul>
         <li><a href="AWS.html" target="https://deepak11python.github.io/Deepak11python/AWS.html">AWS</a></li>
