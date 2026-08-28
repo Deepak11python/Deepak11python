@@ -245,12 +245,5 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Business-Focused Technical Engineer <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Security-First Mindset <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9632; Knowledge Multiplier  <br>
- <h2> 💻 Technical Skills </h2>  
-<h3> Dev Ops Tools (10 Years)</h3> 
-<div class="grid">
- </html>
-
-<h3> Helm, Helm Charts GitOps, Argo CD, GitLab CI </h3><br> 
-<h3> Linux, Shell Scripting (16 Years) </h3><br>
-/>
+ 
 
