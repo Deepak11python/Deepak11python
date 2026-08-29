@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevSecOps & Security | Deepak Golde</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+        }
+
+        .security-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .security-title {
+            color: #007acc;
+            font-size: 1.4em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
+
+        .security-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .security-card {
+            background: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .security-card-header {
+            background: #1e70b8;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 8px 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .security-card ul {
+            margin: 0;
+            padding: 10px 15px 12px 30px;
+            list-style-type: disc;
+        }
+
+        .security-card li {
+            font-size: 12px;
+            line-height: 1.45;
+            margin: 2px 0;
+            color: #2c3e50;
+        }
+
+        @media (max-width: 900px) {
+            .security-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .security-section {
+                padding: 15px;
+            }
+
+            .security-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
+
+            .security-section {
+                box-shadow: none;
+            }
+
+            .security-card {
+                box-shadow: none;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .security-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+
+            .security-card-header {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="security-section">
+
+    <h1 class="security-title">
+        🛡 DevSecOps &amp; Security Compliance
+    </h1>
+
+    <div class="security-grid">
+
+        <!-- DevSecOps Tools -->
+        <div class="security-card">
+            <div class="security-card-header">DevSecOps Tools</div>
+            <ul>
+                <li>SonarQube</li>
+                <li>Trivy</li>
+                <li>Gitleaks</li>
+                <li>Snyk</li>
+                <li>OWASP</li>
+                <li>Checkov</li>
+                <li>Terraform Security</li>
+                <li>Container Security</li>
+            </ul>
+        </div>
+
+        <!-- Security & Compliance -->
+        <div class="security-card">
+            <div class="security-card-header">Security &amp; Compliance</div>
+            <ul>
+                <li>SAST</li>
+                <li>DAST</li>
+                <li>SCA</li>
+                <li>Secrets Scanning</li>
+                <li>IaC Security</li>
+                <li>Vulnerability Management</li>
+                <li>Policy-as-Code</li>
+                <li>Compliance</li>
+            </ul>
+        </div>
+
+        <!-- Code Security -->
+        <div class="security-card">
+            <div class="security-card-header">Code Security</div>
+            <ul>
+                <li>Static Analysis</li>
+                <li>Code Quality</li>
+                <li>Security Hotspots</li>
+                <li>Code Vulnerabilities</li>
+                <li>Code Smells</li>
+                <li>Quality Gates</li>
+                <li>Security Gates</li>
+            </ul>
+        </div>
+
+        <!-- Dependency Security -->
+        <div class="security-card">
+            <div class="security-card-header">Dependency Security</div>
+            <ul>
+                <li>Software Composition Analysis</li>
+                <li>Dependency Scanning</li>
+                <li>Dependency Vulnerabilities</li>
+                <li>Open Source Security</li>
+                <li>CVE Detection</li>
+                <li>License Compliance</li>
+            </ul>
+        </div>
+
+        <!-- Container Security -->
+        <div class="security-card">
+            <div class="security-card-header">Container Security</div>
+            <ul>
+                <li>Container Scanning</li>
+                <li>Image Scanning</li>
+                <li>Trivy</li>
+                <li>Base Image Security</li>
+                <li>CVE Detection</li>
+                <li>Image Hardening</li>
+                <li>Runtime Security</li>
+            </ul>
+        </div>
+
+        <!-- IaC Security -->
+        <div class="security-card">
+            <div class="security-card-header">IaC Security</div>
+            <ul>
+                <li>Terraform Security</li>
+                <li>Checkov</li>
+                <li>IaC Scanning</li>
+                <li>Misconfiguration Detection</li>
+                <li>Security Policies</li>
+                <li>Infrastructure Hardening</li>
+                <li>Terraform Compliance</li>
+            </ul>
+        </div>
+
+        <!-- Secrets Security -->
+        <div class="security-card">
+            <div class="security-card-header">Secrets Security</div>
+            <ul>
+                <li>Secrets Scanning</li>
+                <li>Gitleaks</li>
+                <li>Credential Detection</li>
+                <li>API Key Detection</li>
+                <li>Password Detection</li>
+                <li>Secret Rotation</li>
+                <li>Secret Management</li>
+            </ul>
+        </div>
+
+        <!-- Vulnerability Management -->
+        <div class="security-card">
+            <div class="security-card-header">Vulnerability Management</div>
+            <ul>
+                <li>Vulnerability Scanning</li>
+                <li>CVE Management</li>
+                <li>Severity Assessment</li>
+                <li>Risk Assessment</li>
+                <li>Remediation</li>
+                <li>Security Findings</li>
+                <li>Security Reporting</li>
+            </ul>
+        </div>
+
+        <!-- Application Security -->
+        <div class="security-card">
+            <div class="security-card-header">Application Security</div>
+            <ul>
+                <li>OWASP</li>
+                <li>OWASP Top 10</li>
+                <li>SAST</li>
+                <li>DAST</li>
+                <li>SCA</li>
+                <li>API Security</li>
+                <li>Secure Coding</li>
+            </ul>
+        </div>
+
+        <!-- Kubernetes Security -->
+        <div class="security-card">
+            <div class="security-card-header">Kubernetes Security</div>
+            <ul>
+                <li>RBAC</li>
+                <li>Pod Security</li>
+                <li>Security Contexts</li>
+                <li>Network Policies</li>
+                <li>Secrets</li>
+                <li>ServiceAccounts</li>
+                <li>Container Security</li>
+                <li>Image Security</li>
+            </ul>
+        </div>
+
+        <!-- Cloud Security -->
+        <div class="security-card">
+            <div class="security-card-header">Cloud Security</div>
+            <ul>
+                <li>AWS Security</li>
+                <li>IAM</li>
+                <li>Least Privilege</li>
+                <li>Security Groups</li>
+                <li>Network Security</li>
+                <li>Encryption</li>
+                <li>Cloud Compliance</li>
+            </ul>
+        </div>
+
+        <!-- Policy & Governance -->
+        <div class="security-card">
+            <div class="security-card-header">Policy &amp; Governance</div>
+            <ul>
+                <li>Policy-as-Code</li>
+                <li>Security Policies</li>
+                <li>Compliance Policies</li>
+                <li>Governance</li>
+                <li>Security Standards</li>
+                <li>Control Validation</li>
+                <li>Audit Readiness</li>
+            </ul>
+        </div>
+
+        <!-- CI/CD Security -->
+        <div class="security-card">
+            <div class="security-card-header">CI/CD Security</div>
+            <ul>
+                <li>Secure Pipelines</li>
+                <li>Security Gates</li>
+                <li>Quality Gates</li>
+                <li>Build Security</li>
+                <li>Artifact Security</li>
+                <li>Dependency Scanning</li>
+                <li>Secrets Scanning</li>
+                <li>Container Scanning</li>
+            </ul>
+        </div>
+
+        <!-- DevSecOps Automation -->
+        <div class="security-card">
+            <div class="security-card-header">DevSecOps Automation</div>
+            <ul>
+                <li>Automated Security Scans</li>
+                <li>Security Gates</li>
+                <li>Automated Remediation</li>
+                <li>Security Workflows</li>
+                <li>Pipeline Integration</li>
+                <li>Security Reporting</li>
+                <li>Continuous Security</li>
+            </ul>
+        </div>
+
+        <!-- Security Best Practices -->
+        <div class="security-card">
+            <div class="security-card-header">Security Best Practices</div>
+            <ul>
+                <li>Shift Left Security</li>
+                <li>Defense in Depth</li>
+                <li>Least Privilege</li>
+                <li>Zero Trust</li>
+                <li>Secure by Design</li>
+                <li>Continuous Monitoring</li>
+                <li>Risk Reduction</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
