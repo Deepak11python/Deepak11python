@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CI/CD & GitOps Expertise | Deepak Golde</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+        }
+
+        .cicd-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .cicd-title {
+            color: #007acc;
+            font-size: 1.4em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
+
+        .cicd-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .cicd-card {
+            background: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .cicd-card-header {
+            background: #1e70b8;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 8px 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .cicd-card ul {
+            margin: 0;
+            padding: 10px 15px 12px 30px;
+            list-style-type: disc;
+        }
+
+        .cicd-card li {
+            font-size: 12px;
+            line-height: 1.45;
+            margin: 2px 0;
+            color: #2c3e50;
+        }
+
+        @media (max-width: 900px) {
+            .cicd-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .cicd-section {
+                padding: 15px;
+            }
+
+            .cicd-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
+
+            .cicd-section {
+                box-shadow: none;
+            }
+
+            .cicd-card {
+                box-shadow: none;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .cicd-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+
+            .cicd-card-header {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="cicd-section">
+
+    <h1 class="cicd-title">
+        ⚙ CI/CD &amp; GitOps
+    </h1>
+
+    <div class="cicd-grid">
+
+        <!-- CI/CD Fundamentals -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">CI/CD Fundamentals</div>
+            <ul>
+                <li>Continuous Integration</li>
+                <li>Continuous Delivery</li>
+                <li>Continuous Deployment</li>
+                <li>Pipeline Automation</li>
+                <li>Build Automation</li>
+                <li>Artifact Management</li>
+                <li>Environment Promotion</li>
+                <li>Release Management</li>
+                <li>Deployment Automation</li>
+                <li>Rollback Strategies</li>
+            </ul>
+        </div>
+
+        <!-- Jenkins -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Jenkins</div>
+            <ul>
+                <li>Jenkins</li>
+                <li>Jenkins Pipelines</li>
+                <li>Declarative Pipeline</li>
+                <li>Scripted Pipeline</li>
+                <li>Jenkinsfile</li>
+                <li>Pipeline Stages</li>
+                <li>Shared Libraries</li>
+                <li>Credentials</li>
+                <li>Build Agents</li>
+                <li>Distributed Builds</li>
+                <li>Webhooks</li>
+                <li>Pipeline Triggers</li>
+            </ul>
+        </div>
+
+        <!-- GitHub Actions -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">GitHub Actions</div>
+            <ul>
+                <li>GitHub Actions</li>
+                <li>Workflows</li>
+                <li>Jobs</li>
+                <li>Steps</li>
+                <li>Actions</li>
+                <li>Runners</li>
+                <li>Self-Hosted Runners</li>
+                <li>Secrets</li>
+                <li>Environment Variables</li>
+                <li>Artifacts</li>
+                <li>Matrix Builds</li>
+                <li>Workflow Triggers</li>
+            </ul>
+        </div>
+
+        <!-- GitLab CI/CD -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">GitLab CI/CD</div>
+            <ul>
+                <li>GitLab CI/CD</li>
+                <li>.gitlab-ci.yml</li>
+                <li>Stages</li>
+                <li>Jobs</li>
+                <li>Runners</li>
+                <li>Shared Runners</li>
+                <li>Tags</li>
+                <li>Variables</li>
+                <li>Artifacts</li>
+                <li>Cache</li>
+                <li>Environments</li>
+                <li>Pipeline Rules</li>
+            </ul>
+        </div>
+
+        <!-- Argo CD -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Argo CD</div>
+            <ul>
+                <li>Argo CD</li>
+                <li>GitOps</li>
+                <li>Applications</li>
+                <li>ApplicationSets</li>
+                <li>Projects</li>
+                <li>Repositories</li>
+                <li>Sync Policies</li>
+                <li>Auto Sync</li>
+                <li>Manual Sync</li>
+                <li>Self Healing</li>
+                <li>Rollback</li>
+                <li>Drift Detection</li>
+            </ul>
+        </div>
+
+        <!-- GitOps -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">GitOps</div>
+            <ul>
+                <li>GitOps Principles</li>
+                <li>Declarative Configuration</li>
+                <li>Git as Source of Truth</li>
+                <li>Desired State</li>
+                <li>Automated Reconciliation</li>
+                <li>Configuration Management</li>
+                <li>Environment Management</li>
+                <li>Drift Detection</li>
+                <li>Automated Synchronization</li>
+                <li>Git-Based Deployments</li>
+            </ul>
+        </div>
+
+        <!-- Pipeline Design -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Pipeline Design</div>
+            <ul>
+                <li>Pipeline Architecture</li>
+                <li>Multi-Stage Pipelines</li>
+                <li>Parallel Execution</li>
+                <li>Conditional Execution</li>
+                <li>Approval Gates</li>
+                <li>Quality Gates</li>
+                <li>Deployment Gates</li>
+                <li>Failure Handling</li>
+                <li>Pipeline Optimization</li>
+                <li>Reusable Pipelines</li>
+            </ul>
+        </div>
+
+        <!-- Source Control -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Source Control</div>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>GitLab</li>
+                <li>Branching Strategies</li>
+                <li>Feature Branches</li>
+                <li>GitFlow</li>
+                <li>Pull Requests</li>
+                <li>Merge Requests</li>
+                <li>Branch Protection</li>
+                <li>Code Reviews</li>
+            </ul>
+        </div>
+
+        <!-- Build & Artifacts -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Build &amp; Artifacts</div>
+            <ul>
+                <li>Build Automation</li>
+                <li>Docker Builds</li>
+                <li>Container Images</li>
+                <li>Artifact Repositories</li>
+                <li>Versioning</li>
+                <li>Image Tagging</li>
+                <li>Artifact Promotion</li>
+                <li>Artifact Retention</li>
+                <li>Dependency Management</li>
+            </ul>
+        </div>
+
+        <!-- Deployment -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Deployment Strategies</div>
+            <ul>
+                <li>Rolling Deployment</li>
+                <li>Blue-Green Deployment</li>
+                <li>Canary Deployment</li>
+                <li>Recreate Deployment</li>
+                <li>Zero-Downtime Deployment</li>
+                <li>Progressive Delivery</li>
+                <li>Automated Rollback</li>
+                <li>Environment Promotion</li>
+            </ul>
+        </div>
+
+        <!-- DevSecOps -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">DevSecOps Integration</div>
+            <ul>
+                <li>DevSecOps</li>
+                <li>SAST</li>
+                <li>DAST</li>
+                <li>SCA</li>
+                <li>SonarQube</li>
+                <li>Trivy</li>
+                <li>Gitleaks</li>
+                <li>Secret Scanning</li>
+                <li>Dependency Scanning</li>
+                <li>Container Scanning</li>
+                <li>Security Gates</li>
+            </ul>
+        </div>
+
+        <!-- Notifications -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Notifications &amp; Integration</div>
+            <ul>
+                <li>Webhook Integration</li>
+                <li>Email Notifications</li>
+                <li>Slack Integration</li>
+                <li>Pipeline Notifications</li>
+                <li>Build Notifications</li>
+                <li>Deployment Notifications</li>
+                <li>Failure Alerts</li>
+                <li>Approval Notifications</li>
+            </ul>
+        </div>
+
+        <!-- Pipeline Security -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Pipeline Security</div>
+            <ul>
+                <li>Credential Management</li>
+                <li>Secrets Management</li>
+                <li>Least Privilege</li>
+                <li>RBAC</li>
+                <li>Access Control</li>
+                <li>OIDC</li>
+                <li>Token Management</li>
+                <li>Secret Rotation</li>
+                <li>Secure Pipelines</li>
+            </ul>
+        </div>
+
+        <!-- Kubernetes CI/CD -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Kubernetes CI/CD</div>
+            <ul>
+                <li>Kubernetes Deployments</li>
+                <li>AWS EKS</li>
+                <li>kubectl</li>
+                <li>Helm</li>
+                <li>Helm Deployments</li>
+                <li>Manifest Management</li>
+                <li>Namespace Management</li>
+                <li>ConfigMaps</li>
+                <li>Secrets</li>
+                <li>Deployment Rollouts</li>
+            </ul>
+        </div>
+
+        <!-- Troubleshooting -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Troubleshooting</div>
+            <ul>
+                <li>Pipeline Failures</li>
+                <li>Build Failures</li>
+                <li>Runner Failures</li>
+                <li>Agent Issues</li>
+                <li>Authentication Issues</li>
+                <li>Deployment Failures</li>
+                <li>Artifact Issues</li>
+                <li>Webhook Issues</li>
+                <li>GitOps Sync Failures</li>
+                <li>Rollback Issues</li>
+            </ul>
+        </div>
+
+        <!-- Automation -->
+        <div class="cicd-card">
+            <div class="cicd-card-header">Automation</div>
+            <ul>
+                <li>Pipeline Automation</li>
+                <li>Infrastructure Automation</li>
+                <li>Deployment Automation</li>
+                <li>Release Automation</li>
+                <li>Environment Provisioning</li>
+                <li>Configuration Automation</li>
+                <li>Scheduled Pipelines</li>
+                <li>Event-Driven Automation</li>
+            </ul>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
