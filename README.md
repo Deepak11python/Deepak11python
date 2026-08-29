@@ -29,7 +29,7 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
         <li><a href="AWS.html" target="https://deepak11python.github.io/Deepak11python/AWS.html">AWS</a></li>
         <li><a href="Terraform.html" target="https://deepak11python.github.io/Deepak11python/Terraform.html">Terraform</a></li>
         <li><a href="kubernetes.html" target="https://deepak11python.github.io/Deepak11python/kubernetes.html">Kubernetes</a></li>
-        <li><a href="cicd.html" target="_blank">CICD</a></li>
+        <li><a href="CICD.html" target="https://deepak11python.github.io/Deepak11python/CICD.html">CICD</a></li>
         <li><a href="devsecops.html" target="_blank">DevSecOps</a></li>
     </ul>
 
