@@ -1,1 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Technical Skills | Deepak Golde</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+        }
+
+        .skills-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .skills-title {
+            color: #007acc;
+            font-size: 1.4em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
+
+        .skills-intro {
+            background: #f8fafc;
+            border-left: 4px solid #1e70b8;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 13px;
+            line-height: 1.5;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .skill-card-header {
+            background: #1e70b8;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 8px 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        .skill-card ul {
+            margin: 0;
+            padding: 10px 15px 12px 30px;
+            list-style-type: disc;
+        }
+
+        .skill-card li {
+            font-size: 12px;
+            line-height: 1.45;
+            margin: 3px 0;
+            color: #2c3e50;
+        }
+
+        .skill-card li strong {
+            color: #1e70b8;
+        }
+
+        @media (max-width: 900px) {
+            .skills-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .skills-section {
+                padding: 15px;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
+
+            .skills-section {
+                box-shadow: none;
+            }
+
+            .skill-card {
+                box-shadow: none;
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+
+            .skill-card-header {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="skills-section">
+
+    <h1 class="skills-title">
+        ⚙ SRE, Prometheus, and Grafana
+    </h1>
+
+    
+
+        <!-- SRE -->
+        <div class="skill-card">
+            <div class="skill-card-header">SRE</div>
+            <ul>
+                <li>SLI</li>
+                <li>SLO</li>
+                <li>SLA</li>
+                <li>Error Budgets</li>
+                <li>Reliability</li>
+                <li>Availability</li>
+                <li>Observability</li>
+                <li>Incident</li>
+                <li>On-Call</li>
+                <li>Postmortems</li>
+                <li>Capacity</li>
+                <li>Automation</li>
+            </ul>
+        </div>
+
+        <!-- Prometheus -->
+        <div class="skill-card">
+            <div class="skill-card-header">Prometheus</div>
+            <ul>
+                <li>Metrics</li>
+                <li>PromQL</li>
+                <li>Exporters</li>
+                <li>Targets</li>
+                <li>Service Discovery</li>
+                <li>Alerting</li>
+                <li>Alertmanager</li>
+                <li>Recording Rules</li>
+                <li>Alert Rules</li>
+                <li>Node Exporter</li>
+                <li>Blackbox Exporter</li>
+                <li>Federation</li>
+            </ul>
+        </div>
+
+        <!-- Grafana -->
+        <div class="skill-card">
+            <div class="skill-card-header">Grafana</div>
+            <ul>
+                <li>Dashboards</li>
+                <li>Panels</li>
+                <li>Variables</li>
+                <li>PromQL</li>
+                <li>Alerting</li>
+                <li>Annotations</li>
+                <li>Data Sources</li>
+                <li>Templates</li>
+                <li>Provisioning</li>
+                <li>Visualization</li>
+                <li>Observability</li>
+            </ul>
+        </div>
+
+        <!-- Monitoring -->
+        <div class="skill-card">
+            <div class="skill-card-header">Monitoring</div>
+            <ul>
+                <li>CloudWatch</li>
+                <li>Splunk</li>
+                <li>NewRelic</li>
+                <li>Geneos</li>
+                <li>Prometheus</li>
+                <li>Grafana</li>
+            </ul>
+        </div>
+
+       
+       
+       
+       
+       
+       
+    </div>
+
+</section>
+
+</body>
+</html>
