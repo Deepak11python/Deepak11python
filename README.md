@@ -31,9 +31,9 @@ Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,A
         <li><a href="kubernetes.html" target="https://deepak11python.github.io/Deepak11python/kubernetes.html">Kubernetes</a></li>
         <li><a href="CICD.html" target="https://deepak11python.github.io/Deepak11python/CICD.html">CICD</a></li>
         <li><a href="DevSecOps.html" target="https://deepak11python.github.io/Deepak11python/DevSecOps.html">DevSecOps</a></li>
-        <li><a href="SRE.html" target="https://deepak11python.github.io/Deepak11python/DevSecOps.html">SRE</a></li>
-        <li><a href="Prometheus.html" target="https://deepak11python.github.io/Deepak11python/DevSecOps.html">Prometheus</a></li>
-        <li><a href="Grafana.html" target="https://deepak11python.github.io/Deepak11python/DevSecOps.html">Grafana</a></li>
+        <li><a href="SRE.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">SRE</a></li>
+        <li><a href="Prometheus.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">Prometheus</a></li>
+        <li><a href="Grafana.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">Grafana</a></li>
         </ul>
 
 </section>
