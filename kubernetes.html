@@ -8,10 +8,6 @@
     <title>Kubernetes Expertise | Deepak Golde</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
             padding: 20px;
@@ -31,68 +27,49 @@
 
         .kubernetes-title {
             color: #007acc;
-            font-size: 1.5em;
+            font-size: 1.4em;
             border-bottom: 2px solid #e5e7eb;
-            padding-bottom: 10px;
+            padding-bottom: 8px;
             margin: 0 0 20px 0;
             text-transform: uppercase;
         }
 
-        .kubernetes-category {
-            margin: 0;
-            padding: 11px 0;
-            border-bottom: 1px solid #e5e7eb;
-            line-height: 1.8;
+        .k8s-topic {
+            margin-bottom: 16px;
         }
 
-        .kubernetes-category:last-child {
-            border-bottom: none;
-        }
-
-        .category-title {
-            display: inline-block;
-            min-width: 185px;
-            color: #1e70b8;
+        .k8s-topic-title {
+            font-size: 14px;
             font-weight: 700;
-            font-size: 13px;
-            vertical-align: top;
+            color: #1e70b8;
+            margin-bottom: 4px;
         }
 
-        .topics {
-            display: inline;
+        .k8s-subtopics {
             font-size: 13px;
-            color: #34495e;
+            line-height: 1.7;
+            color: #2c3e50;
         }
 
-        .topics span {
+        .k8s-subtopics span {
             white-space: nowrap;
         }
 
-        .topics span:not(:last-child)::after {
-            content: "  •  ";
-            color: #9aa4af;
-            margin: 0 5px;
-        }
-
-        @media (max-width: 700px) {
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
 
             .kubernetes-section {
-                padding: 20px;
+                padding: 18px;
             }
 
-            .category-title {
-                display: block;
-                min-width: auto;
-                margin-bottom: 3px;
-            }
-
-            .topics {
-                line-height: 1.9;
+            .k8s-subtopics {
+                line-height: 1.8;
             }
         }
 
         @media print {
-
             body {
                 background: #ffffff;
                 padding: 0;
@@ -103,163 +80,121 @@
             }
         }
     </style>
+
 </head>
 
 <body>
 
 <section class="kubernetes-section">
 
-    <h1 class="kubernetes-title">☸ Kubernetes</h1>
+    <h1 class="kubernetes-title">
+        ☸ Kubernetes
+    </h1>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Architecture</span>
-        <span class="topics">
-            <span>Control Plane</span>
-            <span>API Server</span>
-            <span>Scheduler</span>
-            <span>Controller Manager</span>
-            <span>etcd</span>
-            <span>Kubelet</span>
-            <span>Kube-Proxy</span>
-            <span>Container Runtime</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Architecture</div>
+        <div class="k8s-subtopics">
+            Control Plane, API Server, Scheduler, Controller Manager, etcd,
+            Kubelet, Kube-Proxy, Container Runtime
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Workloads</span>
-        <span class="topics">
-            <span>Pods</span>
-            <span>Deployments</span>
-            <span>StatefulSets</span>
-            <span>DaemonSets</span>
-            <span>Jobs</span>
-            <span>CronJobs</span>
-            <span>Init Containers</span>
-            <span>Sidecars</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Workloads</div>
+        <div class="k8s-subtopics">
+            Pods, Deployments, StatefulSets, DaemonSets, Jobs, CronJobs,
+            Init Containers, Sidecars
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Networking</span>
-        <span class="topics">
-            <span>Services</span>
-            <span>ClusterIP</span>
-            <span>NodePort</span>
-            <span>LoadBalancer</span>
-            <span>Ingress</span>
-            <span>Ingress Controller</span>
-            <span>DNS</span>
-            <span>Network Policies</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Networking</div>
+        <div class="k8s-subtopics">
+            Services, ClusterIP, NodePort, LoadBalancer, Ingress,
+            Ingress Controller, DNS, Network Policies
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Storage</span>
-        <span class="topics">
-            <span>Persistent Volumes</span>
-            <span>Persistent Volume Claims</span>
-            <span>StorageClasses</span>
-            <span>Dynamic Provisioning</span>
-            <span>CSI</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Storage</div>
+        <div class="k8s-subtopics">
+            Persistent Volumes, Persistent Volume Claims, StorageClasses,
+            Dynamic Provisioning, CSI
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Scaling & Scheduling</span>
-        <span class="topics">
-            <span>HPA</span>
-            <span>VPA</span>
-            <span>Resource Requests</span>
-            <span>Resource Limits</span>
-            <span>Node Affinity</span>
-            <span>Pod Affinity</span>
-            <span>Pod Anti-Affinity</span>
-            <span>Taints</span>
-            <span>Tolerations</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Scaling &amp; Scheduling</div>
+        <div class="k8s-subtopics">
+            HPA, VPA, Resource Requests, Resource Limits,
+            Node Affinity, Pod Affinity, Pod Anti-Affinity,
+            Taints, Tolerations
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Reliability</span>
-        <span class="topics">
-            <span>Liveness Probes</span>
-            <span>Readiness Probes</span>
-            <span>Startup Probes</span>
-            <span>High Availability</span>
-            <span>Rolling Updates</span>
-            <span>Rollbacks</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Reliability &amp; Deployment</div>
+        <div class="k8s-subtopics">
+            Liveness Probes, Readiness Probes, Startup Probes,
+            High Availability, Rolling Updates, Rollbacks
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Security</span>
-        <span class="topics">
-            <span>RBAC</span>
-            <span>Roles</span>
-            <span>ClusterRoles</span>
-            <span>RoleBindings</span>
-            <span>ServiceAccounts</span>
-            <span>Secrets</span>
-            <span>Security Contexts</span>
-            <span>Network Policies</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Security</div>
+        <div class="k8s-subtopics">
+            RBAC, Roles, ClusterRoles, RoleBindings, ServiceAccounts,
+            Pod Security, Security Contexts, Secrets, Network Policies
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Cluster Administration</span>
-        <span class="topics">
-            <span>Node Management</span>
-            <span>Cluster Upgrades</span>
-            <span>Cordon</span>
-            <span>Drain</span>
-            <span>Uncordon</span>
-            <span>Namespace Management</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Cluster Administration</div>
+        <div class="k8s-subtopics">
+            Node Management, Cluster Upgrades, Cordon, Drain,
+            Uncordon, Namespace Management
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Helm</span>
-        <span class="topics">
-            <span>Charts</span>
-            <span>Templates</span>
-            <span>Values</span>
-            <span>Releases</span>
-            <span>Repositories</span>
-            <span>Dependencies</span>
-            <span>Upgrades</span>
-            <span>Rollbacks</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Helm</div>
+        <div class="k8s-subtopics">
+            Charts, Templates, Values, Releases, Repositories,
+            Dependencies, Upgrades, Rollbacks
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Cloud-Native</span>
-        <span class="topics">
-            <span>AWS EKS</span>
-            <span>Azure AKS</span>
-            <span>Google GKE</span>
-            <span>IAM Integration</span>
-            <span>Cloud Networking</span>
-            <span>Cloud Storage</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Cloud-Native Kubernetes</div>
+        <div class="k8s-subtopics">
+            AWS EKS, Azure AKS, Google GKE, IAM Integration,
+            Cloud Networking, Cloud Storage
+        </div>
     </div>
 
-    <div class="kubernetes-category">
-        <span class="category-title">Monitoring & Troubleshooting</span>
-        <span class="topics">
-            <span>Metrics</span>
-            <span>Logs</span>
-            <span>Events</span>
-            <span>CrashLoopBackOff</span>
-            <span>ImagePullBackOff</span>
-            <span>Pending Pods</span>
-            <span>DNS Issues</span>
-            <span>Ingress Issues</span>
-            <span>Storage Issues</span>
-            <span>Scheduling Issues</span>
-        </span>
+
+    <div class="k8s-topic">
+        <div class="k8s-topic-title">Monitoring &amp; Troubleshooting</div>
+        <div class="k8s-subtopics">
+            Metrics, Logs, Events, Resource Monitoring,
+            CrashLoopBackOff, ImagePullBackOff, Pending Pods,
+            Service Connectivity, DNS Issues, Ingress Issues,
+            Storage Issues, Scheduling Issues
+        </div>
     </div>
 
 </section>
 
 </body>
+
 </html>
