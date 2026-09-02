@@ -8,10 +8,6 @@
     <title>Terraform Expertise | Deepak Golde</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
             padding: 20px;
@@ -24,64 +20,35 @@
             max-width: 1100px;
             margin: 0 auto;
             background: #ffffff;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
         }
 
         .terraform-title {
             color: #7b42bc;
             font-size: 1.4em;
-            border-bottom: 2px solid #ecf0f1;
+            border-bottom: 2px solid #e5e7eb;
             padding-bottom: 8px;
             margin: 0 0 20px 0;
             text-transform: uppercase;
         }
 
-        .terraform-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
+        .tf-topic {
+            margin-bottom: 16px;
         }
 
-        .tf-card {
-            background: #ffffff;
-            border: 1px solid #dcdde1;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-            break-inside: avoid;
-            page-break-inside: avoid;
-        }
-
-        .tf-card-header {
-            background: #7b42bc;
-            color: #ffffff;
-            text-align: center;
-            font-size: 12px;
+        .tf-topic-title {
+            font-size: 14px;
             font-weight: 700;
-            padding: 8px 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
+            color: #7b42bc;
+            margin-bottom: 4px;
         }
 
-        .tf-card ul {
-            margin: 0;
-            padding: 10px 15px 12px 30px;
-            list-style-type: disc;
-        }
-
-        .tf-card li {
-            font-size: 12px;
-            line-height: 1.45;
-            margin: 2px 0;
+        .tf-subtopics {
+            font-size: 13px;
+            line-height: 1.7;
             color: #2c3e50;
-        }
-
-        @media (max-width: 900px) {
-            .terraform-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
         }
 
         @media (max-width: 600px) {
@@ -90,11 +57,11 @@
             }
 
             .terraform-section {
-                padding: 15px;
+                padding: 18px;
             }
 
-            .terraform-grid {
-                grid-template-columns: 1fr;
+            .tf-subtopics {
+                line-height: 1.8;
             }
         }
 
@@ -107,24 +74,9 @@
             .terraform-section {
                 box-shadow: none;
             }
-
-            .tf-card {
-                box-shadow: none;
-                break-inside: avoid;
-                page-break-inside: avoid;
-            }
-
-            .terraform-grid {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 10px;
-            }
-
-            .tf-card-header {
-                print-color-adjust: exact;
-                -webkit-print-color-adjust: exact;
-            }
         }
     </style>
+
 </head>
 
 <body>
@@ -135,241 +87,125 @@
         🏗 Terraform
     </h1>
 
-    <div class="terraform-grid">
 
-        <!-- Architecture & Configuration -->
-        <div class="tf-card">
-            <div class="tf-card-header">Architecture &amp; Configuration</div>
-            <ul>
-                <li>Terraform Configuration</li>
-                <li>Providers</li>
-                <li>Provider Configuration</li>
-                <li>Provider Versions</li>
-                <li>Terraform Registry</li>
-                <li>Resources</li>
-                <li>Data Sources</li>
-            </ul>
+    <div class="tf-topic">
+        <div class="tf-topic-title">Core Concepts</div>
+        <div class="tf-subtopics">
+            Configuration, Providers, Resources, Data Sources, Terraform Registry,
+            Provider Versions
         </div>
+    </div>
 
-        <!-- Input & Output -->
-        <div class="tf-card">
-            <div class="tf-card-header">Variables &amp; Outputs</div>
-            <ul>
-                <li>Input Variables</li>
-                <li>Variable Types</li>
-                <li>Variable Defaults</li>
-                <li>Variable Validation</li>
-                <li>Local Values</li>
-                <li>Output Values</li>
-                <li>Sensitive Variables</li>
-                <li>Sensitive Outputs</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Variables &amp; Outputs</div>
+        <div class="tf-subtopics">
+            Input Variables, Variable Types, Validation, Local Values,
+            Output Values, Sensitive Variables, Sensitive Outputs
         </div>
+    </div>
 
-        <!-- Resources -->
-        <div class="tf-card">
-            <div class="tf-card-header">Resources &amp; Data Sources</div>
-            <ul>
-                <li>Resource Blocks</li>
-                <li>Resource Arguments</li>
-                <li>Resource Attributes</li>
-                <li>Data Sources</li>
-                <li>Resource References</li>
-                <li>Resource Creation</li>
-                <li>Resource Updates</li>
-                <li>Resource Destruction</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Modules</div>
+        <div class="tf-subtopics">
+            Root Modules, Child Modules, Module Inputs, Module Outputs,
+            Module Sources, Versioning, Dependencies, Reusability
         </div>
+    </div>
 
-        <!-- Modules -->
-        <div class="tf-card">
-            <div class="tf-card-header">Modules &amp; Reusability</div>
-            <ul>
-                <li>Terraform Modules</li>
-                <li>Root Modules</li>
-                <li>Child Modules</li>
-                <li>Module Inputs</li>
-                <li>Module Outputs</li>
-                <li>Module Sources</li>
-                <li>Module Versioning</li>
-                <li>Module Dependencies</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">State Management</div>
+        <div class="tf-subtopics">
+            State File, Backend, Local Backend, Remote Backend, Remote State,
+            State Locking, State Management, State Migration
         </div>
+    </div>
 
-        <!-- Backend -->
-        <div class="tf-card">
-            <div class="tf-card-header">Backend &amp; State</div>
-            <ul>
-                <li>Backend Configuration</li>
-                <li>Terraform State File</li>
-                <li>Local Backend</li>
-                <li>Remote Backend</li>
-                <li>Remote State</li>
-                <li>State Storage</li>
-                <li>State Locking</li>
-                <li>State Management</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Terraform Workflow</div>
+        <div class="tf-subtopics">
+            terraform init, terraform fmt, terraform validate, terraform plan,
+            terraform apply, terraform destroy
         </div>
+    </div>
 
-        <!-- Workflow -->
-        <div class="tf-card">
-            <div class="tf-card-header">Terraform Workflow</div>
-            <ul>
-                <li>terraform init</li>
-                <li>terraform validate</li>
-                <li>terraform fmt</li>
-                <li>terraform plan</li>
-                <li>terraform apply</li>
-                <li>terraform destroy</li>
-                <li>Plan Review</li>
-                <li>Configuration Validation</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Meta-Arguments &amp; Lifecycle</div>
+        <div class="tf-subtopics">
+            count, for_each, depends_on, provider, lifecycle,
+            create_before_destroy, prevent_destroy, ignore_changes
         </div>
+    </div>
 
-        <!-- Meta Arguments -->
-        <div class="tf-card">
-            <div class="tf-card-header">Meta-Arguments &amp; Lifecycle</div>
-            <ul>
-                <li>count</li>
-                <li>for_each</li>
-                <li>depends_on</li>
-                <li>provider</li>
-                <li>lifecycle</li>
-                <li>create_before_destroy</li>
-                <li>prevent_destroy</li>
-                <li>ignore_changes</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Dependencies</div>
+        <div class="tf-subtopics">
+            Implicit Dependencies, Explicit Dependencies, Resource Graph,
+            Dependency Graph, Resource Ordering
         </div>
+    </div>
 
-        <!-- Dependencies -->
-        <div class="tf-card">
-            <div class="tf-card-header">Dependencies</div>
-            <ul>
-                <li>Implicit Dependencies</li>
-                <li>Explicit Dependencies</li>
-                <li>depends_on</li>
-                <li>Resource Graph</li>
-                <li>Dependency Graph</li>
-                <li>Module Dependencies</li>
-                <li>Resource Ordering</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Workspaces &amp; Environments</div>
+        <div class="tf-subtopics">
+            Workspaces, Workspace Variables, Environment Isolation,
+            Development Environment, Production Environment
         </div>
+    </div>
 
-        <!-- Provisioners -->
-        <div class="tf-card">
-            <div class="tf-card-header">Provisioners</div>
-            <ul>
-                <li>Provisioners</li>
-                <li>local-exec</li>
-                <li>remote-exec</li>
-                <li>file Provisioner</li>
-                <li>Connection Blocks</li>
-                <li>Provisioner Failure Handling</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">State Operations</div>
+        <div class="tf-subtopics">
+            terraform state list, terraform state show, terraform state mv,
+            terraform state rm, terraform import
         </div>
+    </div>
 
-        <!-- Workspaces -->
-        <div class="tf-card">
-            <div class="tf-card-header">Workspaces &amp; Environments</div>
-            <ul>
-                <li>Terraform Workspaces</li>
-                <li>Workspace Creation</li>
-                <li>Workspace Selection</li>
-                <li>Workspace Variables</li>
-                <li>Environment Isolation</li>
-                <li>Development Environment</li>
-                <li>Production Environment</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Drift &amp; Change Management</div>
+        <div class="tf-subtopics">
+            Infrastructure Drift, Drift Detection, Configuration Drift,
+            Change Detection, Infrastructure Reconciliation
         </div>
+    </div>
 
-        <!-- State Manipulation -->
-        <div class="tf-card">
-            <div class="tf-card-header">State Manipulation</div>
-            <ul>
-                <li>terraform state list</li>
-                <li>terraform state show</li>
-                <li>terraform state mv</li>
-                <li>terraform state rm</li>
-                <li>terraform import</li>
-                <li>Resource State Management</li>
-                <li>State Migration</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Security &amp; Best Practices</div>
+        <div class="tf-subtopics">
+            Secrets Management, Sensitive Variables, State File Security,
+            Least Privilege IAM, Secure Backend, Code Review
         </div>
+    </div>
 
-        <!-- Drift Detection -->
-        <div class="tf-card">
-            <div class="tf-card-header">Drift &amp; Change Management</div>
-            <ul>
-                <li>Infrastructure Drift</li>
-                <li>Drift Detection</li>
-                <li>terraform plan</li>
-                <li>Configuration Drift</li>
-                <li>Manual Infrastructure Changes</li>
-                <li>Change Detection</li>
-                <li>Infrastructure Reconciliation</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Terraform CI/CD</div>
+        <div class="tf-subtopics">
+            GitHub Actions, GitLab CI/CD, Automated Plan, Automated Apply,
+            Plan Approval, IaC Pipeline
         </div>
+    </div>
 
-        <!-- Taint & Untaint -->
-        <div class="tf-card">
-            <div class="tf-card-header">Resource Replacement</div>
-            <ul>
-                <li>Resource Tainting</li>
-                <li>terraform taint</li>
-                <li>terraform untaint</li>
-                <li>Forced Resource Replacement</li>
-                <li>Resource Recreation</li>
-                <li>Replacement Strategies</li>
-            </ul>
+
+    <div class="tf-topic">
+        <div class="tf-topic-title">Troubleshooting</div>
+        <div class="tf-subtopics">
+            Provider Errors, Resource Creation Errors, State Lock Errors,
+            Dependency Errors, Plan Failures, Apply Failures, Drift Issues
         </div>
-
-        <!-- Security -->
-        <div class="tf-card">
-            <div class="tf-card-header">Security &amp; Best Practices</div>
-            <ul>
-                <li>Secrets Management</li>
-                <li>Sensitive Variables</li>
-                <li>State File Security</li>
-                <li>Least Privilege IAM</li>
-                <li>Provider Security</li>
-                <li>Secure Backend</li>
-                <li>Code Review</li>
-            </ul>
-        </div>
-
-        <!-- CI/CD -->
-        <div class="tf-card">
-            <div class="tf-card-header">Terraform CI/CD</div>
-            <ul>
-                <li>Terraform Automation</li>
-                <li>GitHub Actions</li>
-                <li>GitLab CI/CD</li>
-                <li>Automated Plan</li>
-                <li>Automated Apply</li>
-                <li>Plan Approval</li>
-                <li>Infrastructure Deployment</li>
-                <li>IaC Pipeline</li>
-            </ul>
-        </div>
-
-        <!-- Troubleshooting -->
-        <div class="tf-card">
-            <div class="tf-card-header">Troubleshooting</div>
-            <ul>
-                <li>Provider Errors</li>
-                <li>Resource Creation Errors</li>
-                <li>State Lock Errors</li>
-                <li>State Conflicts</li>
-                <li>Dependency Errors</li>
-                <li>Plan Failures</li>
-                <li>Apply Failures</li>
-                <li>Drift Issues</li>
-            </ul>
-        </div>
-
     </div>
 
 </section>
 
 </body>
+
 </html>
