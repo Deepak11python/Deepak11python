@@ -1,0 +1,324 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kubernetes Expertise | Deepak Golde</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #2c3e50;
+        }
+
+        .kubernetes-section {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .kubernetes-title {
+            color: #007acc;
+            font-size: 1.4em;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 8px;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+        }
+
+        /* Category Grid */
+        .kubernetes-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+
+        /* Individual Category */
+        .k8s-card {
+            background: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 8px;
+            overflow: hidden;
+            break-inside: avoid;
+            page-break-inside: avoid;
+        }
+
+        .k8s-card-header {
+            background: #1e70b8;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 8px 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+
+        /* Horizontal Topics */
+        .k8s-topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            padding: 10px 12px;
+        }
+
+        .k8s-topic {
+            background: #f4f6f9;
+            border: 1px solid #d5dbe1;
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 11px;
+            line-height: 1.3;
+            white-space: nowrap;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .kubernetes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .kubernetes-section {
+                padding: 15px;
+            }
+
+            .k8s-topic {
+                font-size: 10px;
+                padding: 4px 7px;
+            }
+        }
+
+        /* Print */
+        @media print {
+
+            body {
+                background: #ffffff;
+                padding: 0;
+            }
+
+            .kubernetes-section {
+                box-shadow: none;
+            }
+
+            .k8s-card {
+                box-shadow: none;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+<section class="kubernetes-section">
+
+    <h1 class="kubernetes-title">
+        ☸ Kubernetes
+    </h1>
+
+    <div class="kubernetes-grid">
+
+        <!-- Architecture -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Architecture</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Control Plane</span>
+                <span class="k8s-topic">API Server</span>
+                <span class="k8s-topic">Scheduler</span>
+                <span class="k8s-topic">Controller Manager</span>
+                <span class="k8s-topic">etcd</span>
+                <span class="k8s-topic">Kubelet</span>
+                <span class="k8s-topic">Kube Proxy</span>
+                <span class="k8s-topic">Container Runtime</span>
+            </div>
+        </div>
+
+
+        <!-- Workloads -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Workloads</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Pods</span>
+                <span class="k8s-topic">Deployments</span>
+                <span class="k8s-topic">StatefulSets</span>
+                <span class="k8s-topic">DaemonSets</span>
+                <span class="k8s-topic">Jobs</span>
+                <span class="k8s-topic">CronJobs</span>
+                <span class="k8s-topic">Init Containers</span>
+                <span class="k8s-topic">Sidecars</span>
+            </div>
+        </div>
+
+
+        <!-- Networking -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Networking</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Services</span>
+                <span class="k8s-topic">ClusterIP</span>
+                <span class="k8s-topic">NodePort</span>
+                <span class="k8s-topic">LoadBalancer</span>
+                <span class="k8s-topic">Ingress</span>
+                <span class="k8s-topic">Ingress Controller</span>
+                <span class="k8s-topic">DNS</span>
+                <span class="k8s-topic">Network Policies</span>
+            </div>
+        </div>
+
+
+        <!-- Storage -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Storage</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Persistent Volumes</span>
+                <span class="k8s-topic">Persistent Volume Claims</span>
+                <span class="k8s-topic">StorageClasses</span>
+                <span class="k8s-topic">Dynamic Provisioning</span>
+                <span class="k8s-topic">CSI</span>
+            </div>
+        </div>
+
+
+        <!-- Scaling & Scheduling -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Scaling &amp; Scheduling</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">HPA</span>
+                <span class="k8s-topic">VPA</span>
+                <span class="k8s-topic">Resource Requests</span>
+                <span class="k8s-topic">Resource Limits</span>
+                <span class="k8s-topic">Node Affinity</span>
+                <span class="k8s-topic">Pod Affinity</span>
+                <span class="k8s-topic">Taints</span>
+                <span class="k8s-topic">Tolerations</span>
+            </div>
+        </div>
+
+
+        <!-- Reliability -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Reliability</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Liveness Probes</span>
+                <span class="k8s-topic">Readiness Probes</span>
+                <span class="k8s-topic">Startup Probes</span>
+                <span class="k8s-topic">High Availability</span>
+                <span class="k8s-topic">Rolling Updates</span>
+                <span class="k8s-topic">Rollbacks</span>
+            </div>
+        </div>
+
+
+        <!-- Security -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Security</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">RBAC</span>
+                <span class="k8s-topic">Roles</span>
+                <span class="k8s-topic">ClusterRoles</span>
+                <span class="k8s-topic">RoleBindings</span>
+                <span class="k8s-topic">ServiceAccounts</span>
+                <span class="k8s-topic">Pod Security</span>
+                <span class="k8s-topic">Security Contexts</span>
+                <span class="k8s-topic">Secrets</span>
+            </div>
+        </div>
+
+
+        <!-- Administration -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Cluster Administration</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Node Management</span>
+                <span class="k8s-topic">Cluster Upgrades</span>
+                <span class="k8s-topic">Node Maintenance</span>
+                <span class="k8s-topic">Cordon</span>
+                <span class="k8s-topic">Drain</span>
+                <span class="k8s-topic">Uncordon</span>
+            </div>
+        </div>
+
+
+        <!-- Helm -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Helm</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Charts</span>
+                <span class="k8s-topic">Templates</span>
+                <span class="k8s-topic">Values</span>
+                <span class="k8s-topic">Releases</span>
+                <span class="k8s-topic">Repositories</span>
+                <span class="k8s-topic">Dependencies</span>
+                <span class="k8s-topic">Upgrades</span>
+                <span class="k8s-topic">Rollbacks</span>
+            </div>
+        </div>
+
+
+        <!-- Cloud Native -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Cloud-Native Kubernetes</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">AWS EKS</span>
+                <span class="k8s-topic">Azure AKS</span>
+                <span class="k8s-topic">Google GKE</span>
+                <span class="k8s-topic">IAM Integration</span>
+                <span class="k8s-topic">Cloud Networking</span>
+                <span class="k8s-topic">Cloud Storage</span>
+            </div>
+        </div>
+
+
+        <!-- Monitoring & Troubleshooting -->
+        <div class="k8s-card">
+            <div class="k8s-card-header">Monitoring &amp; Troubleshooting</div>
+
+            <div class="k8s-topics">
+                <span class="k8s-topic">Metrics</span>
+                <span class="k8s-topic">Logs</span>
+                <span class="k8s-topic">Events</span>
+                <span class="k8s-topic">CrashLoopBackOff</span>
+                <span class="k8s-topic">ImagePullBackOff</span>
+                <span class="k8s-topic">Pending Pods</span>
+                <span class="k8s-topic">DNS Issues</span>
+                <span class="k8s-topic">Ingress Issues</span>
+                <span class="k8s-topic">Storage Issues</span>
+                <span class="k8s-topic">Scheduling Issues</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
+```
