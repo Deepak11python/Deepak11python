@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,13 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DevSecOps & Security | Deepak Golde</title>
+    <title>DevSecOps &amp; Security | Deepak Golde</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             margin: 0;
             padding: 20px;
@@ -24,64 +21,35 @@
             max-width: 1100px;
             margin: 0 auto;
             background: #ffffff;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
         }
 
         .security-title {
             color: #007acc;
             font-size: 1.4em;
-            border-bottom: 2px solid #ecf0f1;
+            border-bottom: 2px solid #e5e7eb;
             padding-bottom: 8px;
             margin: 0 0 20px 0;
             text-transform: uppercase;
         }
 
-        .security-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
+        .security-topic {
+            margin-bottom: 16px;
         }
 
-        .security-card {
-            background: #ffffff;
-            border: 1px solid #dcdde1;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-            break-inside: avoid;
-            page-break-inside: avoid;
-        }
-
-        .security-card-header {
-            background: #1e70b8;
-            color: #ffffff;
-            text-align: center;
-            font-size: 12px;
+        .security-topic-title {
+            font-size: 14px;
             font-weight: 700;
-            padding: 8px 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
+            color: #1e70b8;
+            margin-bottom: 4px;
         }
 
-        .security-card ul {
-            margin: 0;
-            padding: 10px 15px 12px 30px;
-            list-style-type: disc;
-        }
-
-        .security-card li {
-            font-size: 12px;
-            line-height: 1.45;
-            margin: 2px 0;
+        .security-subtopics {
+            font-size: 13px;
+            line-height: 1.7;
             color: #2c3e50;
-        }
-
-        @media (max-width: 900px) {
-            .security-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
         }
 
         @media (max-width: 600px) {
@@ -90,11 +58,11 @@
             }
 
             .security-section {
-                padding: 15px;
+                padding: 18px;
             }
 
-            .security-grid {
-                grid-template-columns: 1fr;
+            .security-subtopics {
+                line-height: 1.8;
             }
         }
 
@@ -107,24 +75,9 @@
             .security-section {
                 box-shadow: none;
             }
-
-            .security-card {
-                box-shadow: none;
-                break-inside: avoid;
-                page-break-inside: avoid;
-            }
-
-            .security-grid {
-                grid-template-columns: repeat(3, 1fr);
-                gap: 10px;
-            }
-
-            .security-card-header {
-                print-color-adjust: exact;
-                -webkit-print-color-adjust: exact;
-            }
         }
     </style>
+
 </head>
 
 <body>
@@ -132,227 +85,130 @@
 <section class="security-section">
 
     <h1 class="security-title">
-        🛡 DevSecOps &amp; Security Compliance
+        🛡 DevSecOps &amp; Security
     </h1>
 
-    <div class="security-grid">
 
-        <!-- DevSecOps Tools -->
-        <div class="security-card">
-            <div class="security-card-header">DevSecOps Tools</div>
-            <ul>
-                <li>SonarQube</li>
-                <li>Trivy</li>
-                <li>Gitleaks</li>
-                <li>Snyk</li>
-                <li>OWASP</li>
-                <li>Checkov</li>
-                <li>Terraform Security</li>
-                <li>Container Security</li>
-            </ul>
+    <div class="security-topic">
+        <div class="security-topic-title">DevSecOps Tools</div>
+        <div class="security-subtopics">
+            SonarQube, Trivy, Gitleaks, Snyk, Checkov, OWASP
         </div>
+    </div>
 
-        <!-- Security & Compliance -->
-        <div class="security-card">
-            <div class="security-card-header">Security &amp; Compliance</div>
-            <ul>
-                <li>SAST</li>
-                <li>DAST</li>
-                <li>SCA</li>
-                <li>Secrets Scanning</li>
-                <li>IaC Security</li>
-                <li>Vulnerability Management</li>
-                <li>Policy-as-Code</li>
-                <li>Compliance</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Application Security</div>
+        <div class="security-subtopics">
+            SAST, DAST, SCA, OWASP Top 10, Secure Coding, API Security,
+            Code Quality, Security Hotspots, Quality Gates
         </div>
+    </div>
 
-        <!-- Code Security -->
-        <div class="security-card">
-            <div class="security-card-header">Code Security</div>
-            <ul>
-                <li>Static Analysis</li>
-                <li>Code Quality</li>
-                <li>Security Hotspots</li>
-                <li>Code Vulnerabilities</li>
-                <li>Code Smells</li>
-                <li>Quality Gates</li>
-                <li>Security Gates</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Dependency Security</div>
+        <div class="security-subtopics">
+            SCA, Dependency Scanning, Open Source Security,
+            CVE Detection, License Compliance, Vulnerability Assessment
         </div>
+    </div>
 
-        <!-- Dependency Security -->
-        <div class="security-card">
-            <div class="security-card-header">Dependency Security</div>
-            <ul>
-                <li>Software Composition Analysis</li>
-                <li>Dependency Scanning</li>
-                <li>Dependency Vulnerabilities</li>
-                <li>Open Source Security</li>
-                <li>CVE Detection</li>
-                <li>License Compliance</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Container Security</div>
+        <div class="security-subtopics">
+            Trivy, Container Scanning, Image Scanning, CVE Detection,
+            Base Image Security, Image Hardening, Runtime Security
         </div>
+    </div>
 
-        <!-- Container Security -->
-        <div class="security-card">
-            <div class="security-card-header">Container Security</div>
-            <ul>
-                <li>Container Scanning</li>
-                <li>Image Scanning</li>
-                <li>Trivy</li>
-                <li>Base Image Security</li>
-                <li>CVE Detection</li>
-                <li>Image Hardening</li>
-                <li>Runtime Security</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Infrastructure as Code Security</div>
+        <div class="security-subtopics">
+            Terraform Security, Checkov, IaC Scanning, Misconfiguration Detection,
+            Security Policies, Infrastructure Hardening
         </div>
+    </div>
 
-        <!-- IaC Security -->
-        <div class="security-card">
-            <div class="security-card-header">IaC Security</div>
-            <ul>
-                <li>Terraform Security</li>
-                <li>Checkov</li>
-                <li>IaC Scanning</li>
-                <li>Misconfiguration Detection</li>
-                <li>Security Policies</li>
-                <li>Infrastructure Hardening</li>
-                <li>Terraform Compliance</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Secrets Security</div>
+        <div class="security-subtopics">
+            Gitleaks, Secrets Scanning, Credential Detection, API Key Detection,
+            Password Detection, Secret Management, Secret Rotation
         </div>
+    </div>
 
-        <!-- Secrets Security -->
-        <div class="security-card">
-            <div class="security-card-header">Secrets Security</div>
-            <ul>
-                <li>Secrets Scanning</li>
-                <li>Gitleaks</li>
-                <li>Credential Detection</li>
-                <li>API Key Detection</li>
-                <li>Password Detection</li>
-                <li>Secret Rotation</li>
-                <li>Secret Management</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Vulnerability Management</div>
+        <div class="security-subtopics">
+            Vulnerability Scanning, CVE Management, Severity Assessment,
+            Risk Assessment, Remediation, Security Findings, Security Reporting
         </div>
+    </div>
 
-        <!-- Vulnerability Management -->
-        <div class="security-card">
-            <div class="security-card-header">Vulnerability Management</div>
-            <ul>
-                <li>Vulnerability Scanning</li>
-                <li>CVE Management</li>
-                <li>Severity Assessment</li>
-                <li>Risk Assessment</li>
-                <li>Remediation</li>
-                <li>Security Findings</li>
-                <li>Security Reporting</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Kubernetes Security</div>
+        <div class="security-subtopics">
+            RBAC, Pod Security, Security Contexts, Network Policies,
+            Secrets, ServiceAccounts, Container Security, Image Security
         </div>
+    </div>
 
-        <!-- Application Security -->
-        <div class="security-card">
-            <div class="security-card-header">Application Security</div>
-            <ul>
-                <li>OWASP</li>
-                <li>OWASP Top 10</li>
-                <li>SAST</li>
-                <li>DAST</li>
-                <li>SCA</li>
-                <li>API Security</li>
-                <li>Secure Coding</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Cloud Security</div>
+        <div class="security-subtopics">
+            AWS Security, IAM, Least Privilege, Security Groups,
+            Network Security, Encryption, Cloud Compliance
         </div>
+    </div>
 
-        <!-- Kubernetes Security -->
-        <div class="security-card">
-            <div class="security-card-header">Kubernetes Security</div>
-            <ul>
-                <li>RBAC</li>
-                <li>Pod Security</li>
-                <li>Security Contexts</li>
-                <li>Network Policies</li>
-                <li>Secrets</li>
-                <li>ServiceAccounts</li>
-                <li>Container Security</li>
-                <li>Image Security</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Policy &amp; Compliance</div>
+        <div class="security-subtopics">
+            Policy-as-Code, Security Policies, Compliance Policies,
+            Governance, Security Standards, Control Validation, Audit Readiness
         </div>
+    </div>
 
-        <!-- Cloud Security -->
-        <div class="security-card">
-            <div class="security-card-header">Cloud Security</div>
-            <ul>
-                <li>AWS Security</li>
-                <li>IAM</li>
-                <li>Least Privilege</li>
-                <li>Security Groups</li>
-                <li>Network Security</li>
-                <li>Encryption</li>
-                <li>Cloud Compliance</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">CI/CD Security</div>
+        <div class="security-subtopics">
+            Secure Pipelines, Security Gates, Quality Gates, Build Security,
+            Artifact Security, Dependency Scanning, Secrets Scanning,
+            Container Scanning
         </div>
+    </div>
 
-        <!-- Policy & Governance -->
-        <div class="security-card">
-            <div class="security-card-header">Policy &amp; Governance</div>
-            <ul>
-                <li>Policy-as-Code</li>
-                <li>Security Policies</li>
-                <li>Compliance Policies</li>
-                <li>Governance</li>
-                <li>Security Standards</li>
-                <li>Control Validation</li>
-                <li>Audit Readiness</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">DevSecOps Automation</div>
+        <div class="security-subtopics">
+            Automated Security Scans, Security Gates, Automated Remediation,
+            Security Workflows, Pipeline Integration, Security Reporting,
+            Continuous Security
         </div>
+    </div>
 
-        <!-- CI/CD Security -->
-        <div class="security-card">
-            <div class="security-card-header">CI/CD Security</div>
-            <ul>
-                <li>Secure Pipelines</li>
-                <li>Security Gates</li>
-                <li>Quality Gates</li>
-                <li>Build Security</li>
-                <li>Artifact Security</li>
-                <li>Dependency Scanning</li>
-                <li>Secrets Scanning</li>
-                <li>Container Scanning</li>
-            </ul>
+
+    <div class="security-topic">
+        <div class="security-topic-title">Security Best Practices</div>
+        <div class="security-subtopics">
+            Shift Left Security, Defense in Depth, Least Privilege,
+            Zero Trust, Secure by Design, Continuous Monitoring, Risk Reduction
         </div>
-
-        <!-- DevSecOps Automation -->
-        <div class="security-card">
-            <div class="security-card-header">DevSecOps Automation</div>
-            <ul>
-                <li>Automated Security Scans</li>
-                <li>Security Gates</li>
-                <li>Automated Remediation</li>
-                <li>Security Workflows</li>
-                <li>Pipeline Integration</li>
-                <li>Security Reporting</li>
-                <li>Continuous Security</li>
-            </ul>
-        </div>
-
-        <!-- Security Best Practices -->
-        <div class="security-card">
-            <div class="security-card-header">Security Best Practices</div>
-            <ul>
-                <li>Shift Left Security</li>
-                <li>Defense in Depth</li>
-                <li>Least Privilege</li>
-                <li>Zero Trust</li>
-                <li>Secure by Design</li>
-                <li>Continuous Monitoring</li>
-                <li>Risk Reduction</li>
-            </ul>
-        </div>
-
     </div>
 
 </section>
 
 </body>
+
 </html>
+```
