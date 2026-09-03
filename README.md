@@ -7,6 +7,7 @@ Expereince in delivering DevOps solutions across BFSI, Telecom, Storage, and
 Virtualization domains. <br>
 Highly skilled, Deep Hands-on in AWS Cloud, Terraform, Docker, <br> Kubernetes,Ansible, automation, CI/CD, cost optimization.
 
+https://deepak11python.github.io/Deepak11python/
 
 # 💻 Tech Stack:
 <div style="
