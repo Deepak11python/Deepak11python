@@ -33,6 +33,7 @@ https://deepak11python.github.io/Deepak11python/
         <li><a href="CICD.html" target="https://deepak11python.github.io/Deepak11python/CICD.html">CICD</a></li>
         <li><a href="DevSecOps.html" target="https://deepak11python.github.io/Deepak11python/DevSecOps.html">DevSecOps</a></li>
         <li><a href="SRE.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">SRE</a></li>
+        <li><a href="SRE.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">Observability</a></li>
         <li><a href="SRE.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">Prometheus</a></li>
         <li><a href="SRE.html" target="https://deepak11python.github.io/Deepak11python/SRE.html">Grafana</a></li>
         </ul>
